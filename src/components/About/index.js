@@ -1,11 +1,11 @@
-import { FaAngleDoubleDown, FaUserCircle} from "react-icons/fa";
+import { FaAngleDoubleDown, FaUserCircle } from "react-icons/fa";
 import "./index.css";
 function About() {
     return (
         <div className="About section">
             <h2 className="title">About Me</h2>
             <div className="photo">
-                <FaUserCircle/>
+                <FaUserCircle />
             </div>
             <p>My Name is Chris Manfredi, I am a Fullstack Developer...</p>
             <div className="skillSection">
@@ -40,9 +40,13 @@ function About() {
                         <li>Model View Controller</li>
                     </ul>
                 </div>
-                
+
+                <div>
+                </div>
             </div>
-                <FaAngleDoubleDown className="aboutArrow"/>
+
+            <FaAngleDoubleDown className="aboutArrow" />
+            
         </div>
     );
 }

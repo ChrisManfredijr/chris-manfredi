@@ -28,4 +28,6 @@
 
 .aboutArrow {
     font-size: 50px;
+    position: absolute;
+    bottom: -95%;
 }
