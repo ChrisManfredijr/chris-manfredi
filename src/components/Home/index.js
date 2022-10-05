@@ -2,7 +2,7 @@ import { FaGithubSquare, FaLinkedin, FaAngleDoubleDown } from "react-icons/fa";
 import './index.css';
 function Home() {
     return (
-        <div className="Home section">
+        <div className="Home section" id="home">
             <div>
                 <h1>Chris Manfredi</h1>
                 <h2>Fullstack Developer</h2>

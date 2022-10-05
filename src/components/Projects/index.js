@@ -2,7 +2,7 @@ import './index.css'
 import { FaAngleDoubleDown} from "react-icons/fa";
 function Projects() {
     return(
-        <div className="Projects section">
+        <div className="Projects section" id="projects">
             <div>
                 <h2 className='title'>My Projects</h2>
             </div>
