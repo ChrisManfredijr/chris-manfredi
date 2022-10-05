@@ -1,4 +1,5 @@
 import { FaAngleDoubleDown, FaUserCircle } from "react-icons/fa";
+import { Link } from 'react-scroll';
 import "./index.css";
 function About() {
     return (
@@ -44,8 +45,9 @@ function About() {
                 <div>
                 </div>
             </div>
-
-            <FaAngleDoubleDown className="aboutArrow" />
+            <Link to="projects" spy={true} smooth={true} offset={50} duration={500}>
+                <FaAngleDoubleDown className="aboutArrow" />
+            </Link>
             
         </div>
     );

@@ -1,4 +1,5 @@
 import { FaGithubSquare, FaLinkedin, FaAngleDoubleDown } from "react-icons/fa";
+import { Link } from 'react-scroll';
 import './index.css';
 function Home() {
     return (
@@ -9,7 +10,9 @@ function Home() {
                 <div>
                     <FaGithubSquare className="githubHome"/><FaLinkedin className="linkedinHome"/>
                 </div> 
-                <FaAngleDoubleDown className="downArrow"/>
+                <Link to="about" spy={true} smooth={true} offset={50} duration={500}>
+                    <FaAngleDoubleDown className="downArrow"/>
+                </Link>    
             </div>
         </div>
     );

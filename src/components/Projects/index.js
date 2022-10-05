@@ -1,5 +1,6 @@
 import './index.css'
 import { FaAngleDoubleDown} from "react-icons/fa";
+import { Link } from 'react-scroll';
 function Projects() {
     return(
         <div className="Projects section" id="projects">
@@ -15,7 +16,11 @@ function Projects() {
             <div className="projectCard">
                     
             </div>
-            <FaAngleDoubleDown className="projectArrow" />
+            <Link to="contact" spy={true} smooth={true} offset={50} duration={500}>
+                <FaAngleDoubleDown className="projectArrow" />
+            </Link>  
+
+            
         </div>
     )
 }
