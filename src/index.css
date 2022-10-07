@@ -36,6 +36,7 @@ h2 {
   font-size: 45px;
   position: absolute;
   bottom:50px;
+  cursor:pointer;
 }
 .section{
   height:100vh;

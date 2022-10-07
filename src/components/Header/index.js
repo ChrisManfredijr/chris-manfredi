@@ -3,24 +3,24 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import { Link } from 'react-scroll';
 import './index.css'
-function Navheader() {
+function Header() {
   return (
     <>
       <Navbar bg="dark" variant="dark" className='Nav'>
         <Container >
-          <Navbar.Brand href="#home">Navbar</Navbar.Brand>
+          <Navbar.Brand href="#home">Chris Manfredi</Navbar.Brand>
           <Nav className="me-auto">
             
-            <Nav.Link as={Link} to="home" spy={true} smooth={true} offset={50} duration={500}>
+            <Nav.Link as={Link} to="home" spy={true} smooth={true} duration={500}>
               Home
             </Nav.Link>
-            <Nav.Link as={Link} to="about" spy={true} smooth={true} offset={50} duration={500}>
+            <Nav.Link as={Link} to="about" spy={true} smooth={true} duration={500}>
               About
             </Nav.Link>
-            <Nav.Link as={Link} to="projects" spy={true} smooth={true} offset={50} duration={500}>
+            <Nav.Link as={Link} to="projects" spy={true} smooth={true} duration={500}>
               Projects
             </Nav.Link>
-            <Nav.Link as={Link} to="contact" spy={true} smooth={true} offset={50} duration={500}>
+            <Nav.Link as={Link} to="contact" spy={true} smooth={true} duration={500}>
               Contact
             </Nav.Link>
           </Nav>
@@ -31,4 +31,4 @@ function Navheader() {
   );
 }
 
-export default Navheader;
+export default Header;

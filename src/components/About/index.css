@@ -30,4 +30,5 @@
     font-size: 50px;
     position: absolute;
     bottom: -95%;
+    cursor:pointer;
 }
