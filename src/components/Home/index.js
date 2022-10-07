@@ -6,8 +6,8 @@ function Home() {
         <div className="Home section" id="home">
             <div>
                 <h1>Chris Manfredi</h1>
-                <h2>Fullstack Developer</h2>
-                <div>
+                <h2 className="subHero">Fullstack Developer</h2>
+                <div className="homeButtons">
                     <FaGithubSquare className="githubHome"/><FaLinkedin className="linkedinHome"/>
                 </div> 
                 <Link to="about" spy={true} smooth={true} offset={50} duration={500}>

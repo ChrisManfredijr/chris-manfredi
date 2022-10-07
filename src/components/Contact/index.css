@@ -15,5 +15,16 @@
 
 .btn {
     width:100px;
+    
+}
+
+.btnWrapper {
+    display: flex;
     justify-content: right;
+}
+
+.line {
+    width:50%;
+    border-top: 3px solid darkgray;
+    margin-top: 50px;
 }

@@ -6,7 +6,7 @@ import './index.css'
 function Header() {
   return (
     <>
-      <Navbar bg="dark" variant="dark" className='Nav'>
+      <Navbar  variant="light" className='Nav'>
         <Container >
           <Navbar.Brand href="#home">Chris Manfredi</Navbar.Brand>
           <Nav className="me-auto">

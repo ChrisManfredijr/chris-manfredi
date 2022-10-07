@@ -1,13 +1,23 @@
+:root{
+  --main-bg-color: #2B2D42;
+  --second-bg-color: #8D99AE;
+  --main-text-color: #EDF2F4;
+  --second-text-color: #f4f4f4;
+  --main-accent-color: #EF233C;
+  --second-accent-color: #D80032;
+}
+
 body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-family: 'Oswald', sans-serif;
-  background-color: #f4f4f4;
   -ms-overflow-style: none; 
   scrollbar-width: none; 
   overflow-y: scroll; 
-
+  color: var(--main-text-color);
+  background-color: #2b2d42;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8' viewBox='0 0 8 8'%3E%3Cg fill='%238d99ae' fill-opacity='0.1'%3E%3Cpath fill-rule='evenodd' d='M0 0h4v4H0V0zm4 4h4v4H4V4z'/%3E%3C/g%3E%3C/svg%3E"); 
 }
 body::-webkit-scrollbar {
   display: none; 

@@ -20,12 +20,14 @@ function Contact() {
                 <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
                     <Form.Control as="textarea" rows={6} />
                 </Form.Group>
-
-                <Button variant="outline-primary" type="submit" className="btn">
-                    Submit
-                </Button>
+                <div className='btnWrapper'>
+                    <Button variant="outline-primary" type="submit" className="btn">
+                        Submit
+                    </Button>
+                </div>   
             </Form>
 
+                <div className='line'></div>
             <Link to="home" spy={true} smooth={true} offset={50} duration={250}>
                 <FaAngleDoubleUp className="upArrow" />
             </Link>
