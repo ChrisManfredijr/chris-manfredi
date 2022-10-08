@@ -6,11 +6,10 @@ import './index.css'
 function Header() {
   return (
     <>
-      <Navbar  variant="light" className='Nav'>
+      <Navbar className='Nav'>
         <Container >
           <Navbar.Brand href="#home">Chris Manfredi</Navbar.Brand>
           <Nav className="me-auto">
-            
             <Nav.Link as={Link} to="home" spy={true} smooth={true} duration={500}>
               Home
             </Nav.Link>

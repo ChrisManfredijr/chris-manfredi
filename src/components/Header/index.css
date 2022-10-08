@@ -6,4 +6,23 @@
     height:75px;
     font-size: 25px;
     font-style: italic;
+    color: var(--main-text-color)
 }
+
+.nav-link {
+    color: var(--main-text-color);
+}
+.nav-link:hover{
+    color: var(--main-text-color);
+    cursor: pointer;
+    text-decoration: underline;
+    text-decoration-color:var(--main-accent-color);
+    text-decoration-thickness: 5px;
+}
+.nav-link.active{
+    color: var(--main-text-color) !important;
+    text-decoration: underline;
+    text-decoration-color:var(--main-accent-color);
+    text-decoration-thickness: 5px;
+}
+
