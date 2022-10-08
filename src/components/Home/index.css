@@ -13,7 +13,14 @@
     margin-left: 10px;
 }
 
-.subHero {
+.githubHome:hover, .linkedinHome:hover{
+  color:var(--main-accent-color)
+}
+.name {
+  font-size: 130px;
+}
+.title {
+  font-size: 100px;
   color: var(--main-accent-color);
   font-style: italic;
 }

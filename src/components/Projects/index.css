@@ -14,3 +14,8 @@
     bottom: -195%;
     cursor:pointer;
 }
+
+
+.projectArrow:hover {
+    color: var(--main-accent-color);
+  }

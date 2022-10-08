@@ -5,8 +5,8 @@ function Home() {
     return (
         <div className="Home section" id="home">
             <div>
-                <h1>Chris Manfredi</h1>
-                <h2 className="subHero">Fullstack Developer</h2>
+                <h1 className="name">Chris Manfredi</h1>
+                <h2 className="title">Fullstack Developer</h2>
                 <div className="homeButtons">
                     <FaGithubSquare className="githubHome"/><FaLinkedin className="linkedinHome"/>
                 </div> 

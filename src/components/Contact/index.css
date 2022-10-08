@@ -4,7 +4,9 @@
     bottom: -295%;
     cursor:pointer;
 }
-
+.upArrow:hover {
+    color: var(--main-accent-color);
+  }
 .contactInput {
     width:50%;
     margin-top: 50px;

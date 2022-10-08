@@ -6,10 +6,9 @@ import './index.css'
 function Header() {
   return (
     <>
-      <Navbar className='Nav'>
-        <Container >
-          <Navbar.Brand href="#home">Chris Manfredi</Navbar.Brand>
-          <Nav className="me-auto">
+      <Navbar className='nav'>
+        <Container className='nav-bar'>
+          <Nav className="lg-auto nav-links">
             <Nav.Link as={Link} to="home" spy={true} smooth={true} duration={500}>
               Home
             </Nav.Link>

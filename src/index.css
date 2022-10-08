@@ -48,6 +48,9 @@ h2 {
   bottom:50px;
   cursor:pointer;
 }
+.downArrow:hover {
+  color: var(--main-accent-color);
+}
 .section{
   height:100vh;
   margin:0;
