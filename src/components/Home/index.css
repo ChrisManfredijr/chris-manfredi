@@ -30,3 +30,10 @@
   justify-content: right;
   padding-top: 25px;
 }
+.curve {
+  position: absolute;
+  height: 225px;
+  width: 100px;
+  bottom: 0;
+}
+

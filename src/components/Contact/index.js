@@ -6,6 +6,7 @@ import Form from 'react-bootstrap/Form';
 
 function Contact() {
     return (
+       
         <div className="Contact section" id="contact">
             <h2>Contact Me:</h2>
             <Form className='contactInput'>

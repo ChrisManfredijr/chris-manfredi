@@ -17,8 +17,9 @@ body {
   overflow-y: scroll; 
   color: var(--main-text-color);
   background-color: #2b2d42;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8' viewBox='0 0 8 8'%3E%3Cg fill='%238d99ae' fill-opacity='0.1'%3E%3Cpath fill-rule='evenodd' d='M0 0h4v4H0V0zm4 4h4v4H4V4z'/%3E%3C/g%3E%3C/svg%3E"); 
+ 
 }
+
 body::-webkit-scrollbar {
   display: none; 
 }
@@ -47,6 +48,7 @@ h2 {
   position: absolute;
   bottom:50px;
   cursor:pointer;
+  
 }
 .downArrow:hover {
   color: var(--main-accent-color);
@@ -61,3 +63,33 @@ h2 {
   align-items: center;
 }
 
+.triangleLight {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.triangleLight svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 100px;
+}
+
+.triangleLight .shape-fill {
+  fill: var(--second-bg-color);
+}
+
+.triangleDark {
+  bottom:-100%;
+}
+.triangleDark .shape-fill {
+  fill: var(--main-bg-color);
+}
+
+.triangleProjects {
+  bottom: -200%;
+}
