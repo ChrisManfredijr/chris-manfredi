@@ -8,7 +8,7 @@ function Home() {
                 <h1 className="name">Chris Manfredi</h1>
                 <h2 className="title">Fullstack Developer</h2>
                 <div className="homeButtons">
-                    <FaGithubSquare className="githubHome"/><FaLinkedin className="linkedinHome"/>
+                    <FaGithubSquare className="githubHome" href={""}/><FaLinkedin className="linkedinHome"/>
                 </div> 
                 <Link to="about" spy={true} smooth={true} offset={50} duration={500}>
                     <FaAngleDoubleDown className="downArrow"/>
