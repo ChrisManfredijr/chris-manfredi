@@ -2,33 +2,43 @@ import { FaGithubSquare, FaLinkedin, FaAngleDoubleDown } from "react-icons/fa";
 import { Link } from 'react-scroll';
 import './index.css';
 
-import React, { useState, useEffect, useRef } from 'react'
+import { useState, useEffect, useRef } from 'react'
 import trunk from 'vanta/dist/vanta.trunk.min'
 // Make sure window.THREE is defined, e.g. by including three.min.js in the document head using a <script> tag
 
-const Home = (props) => {
-  const [vantaEffect, setVantaEffect] = useState(null)
-  const myRef = useRef(null)
-  useEffect(() => {
-    if (!vantaEffect) {
-      setVantaEffect(trunk({
-        el: myRef.current
-      }))
-    }
-    return () => {
-      if (vantaEffect) vantaEffect.destroy()
-    }
-  }, [vantaEffect])
-  return <div ref={myRef}>
-     <div className="Home section" id="home">
+const Home = () => {
+    const [vantaEffect, setVantaEffect] = useState(null)
+    const myRef = useRef(null)
+    useEffect(() => {
+        if (!vantaEffect) {
+            setVantaEffect(trunk({
+                el: myRef.current,
+                mouseControls: true,
+                touchControls: true,
+                gyroControls: false,
+                minHeight: 500.00,
+                minWidth: 500.00,
+                scale: 2.00,
+                scaleMobile: 1.00,
+                backgroundColor: 0x212325,
+                spacing: 10.00
+                
+            }))
+        }
+        return () => {
+            if (vantaEffect) vantaEffect.destroy()
+        }
+    }, [vantaEffect])
+    return <div ref={myRef} id="">
+        <div className="Home section" id="home">
             <div>
                 <h1 className="name">Chris Manfredi</h1>
                 <h2 className="subTitle">Fullstack Developer</h2>
                 <div className="homeButtons">
-                    <FaGithubSquare className="githubHome" href={""}/><FaLinkedin className="linkedinHome"/>
-                </div> 
+                    <FaGithubSquare className="githubHome" href={""} /><FaLinkedin className="linkedinHome" />
+                </div>
                 <Link to="about" spy={true} smooth={true} offset={50} duration={500}>
-                    <FaAngleDoubleDown className="downArrow"/>
+                    <FaAngleDoubleDown className="downArrow" />
                 </Link>
             </div>
             <div className="triangleLight">
@@ -37,7 +47,7 @@ const Home = (props) => {
                 </svg>
             </div>
         </div>
-  </div>
+    </div>
 }
 
 export default Home;

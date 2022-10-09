@@ -1,6 +1,6 @@
 :root{
   --main-bg-color: #222426;
-  --second-bg-color: #414141;
+  --second-bg-color: #1A1A1B;
   --main-text-color: #EDF2F4;
   --second-text-color: #525252;
   --main-accent-color: #CA3E47;
@@ -97,3 +97,5 @@ h2 {
 .triangleProjects {
   bottom: -200%;
 }
+
+
