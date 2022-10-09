@@ -8,7 +8,7 @@ function Contact() {
     return (
        
         <div className="Contact section" id="contact">
-            <h2>Contact Me:</h2>
+            <h2 className='title'>Contact Me:</h2>
             <Form className='contactInput'>
                 <Form.Group className="mb-2" controlId="formBasicEmail">
                     <Form.Control type="email" placeholder="Enter email" />

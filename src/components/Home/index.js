@@ -1,12 +1,29 @@
 import { FaGithubSquare, FaLinkedin, FaAngleDoubleDown } from "react-icons/fa";
 import { Link } from 'react-scroll';
 import './index.css';
-function Home() {
-    return (
-        <div className="Home section" id="home">
+
+import React, { useState, useEffect, useRef } from 'react'
+import trunk from 'vanta/dist/vanta.trunk.min'
+// Make sure window.THREE is defined, e.g. by including three.min.js in the document head using a <script> tag
+
+const Home = (props) => {
+  const [vantaEffect, setVantaEffect] = useState(null)
+  const myRef = useRef(null)
+  useEffect(() => {
+    if (!vantaEffect) {
+      setVantaEffect(trunk({
+        el: myRef.current
+      }))
+    }
+    return () => {
+      if (vantaEffect) vantaEffect.destroy()
+    }
+  }, [vantaEffect])
+  return <div ref={myRef}>
+     <div className="Home section" id="home">
             <div>
                 <h1 className="name">Chris Manfredi</h1>
-                <h2 className="title">Fullstack Developer</h2>
+                <h2 className="subTitle">Fullstack Developer</h2>
                 <div className="homeButtons">
                     <FaGithubSquare className="githubHome" href={""}/><FaLinkedin className="linkedinHome"/>
                 </div> 
@@ -20,7 +37,7 @@ function Home() {
                 </svg>
             </div>
         </div>
-    );
+  </div>
 }
 
 export default Home;

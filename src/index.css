@@ -1,9 +1,9 @@
 :root{
-  --main-bg-color: #2B2D42;
-  --second-bg-color: #8D99AE;
+  --main-bg-color: #222426;
+  --second-bg-color: #414141;
   --main-text-color: #EDF2F4;
-  --second-text-color: #f4f4f4;
-  --main-accent-color: #EF233C;
+  --second-text-color: #525252;
+  --main-accent-color: #CA3E47;
   --second-accent-color: #D80032;
 }
 
@@ -16,7 +16,7 @@ body {
   scrollbar-width: none; 
   overflow-y: scroll; 
   color: var(--main-text-color);
-  background-color: #2b2d42;
+  background-color: var(--main-bg-color);
  
 }
 
@@ -34,9 +34,6 @@ h1, h2, h3, h4, h5 {
   padding:0px;
 }
 
-h1 {
-  font-size: 100px;
-}
 
 h2 {
   font-size: 75px;
@@ -48,6 +45,8 @@ h2 {
   position: absolute;
   bottom:50px;
   cursor:pointer;
+  z-index: 1;
+  ;
   
 }
 .downArrow:hover {
@@ -70,6 +69,8 @@ h2 {
   width: 100%;
   overflow: hidden;
   line-height: 0;
+  
+  
 }
 
 .triangleLight svg {
@@ -77,10 +78,12 @@ h2 {
   display: block;
   width: calc(100% + 1.3px);
   height: 100px;
+  
 }
 
 .triangleLight .shape-fill {
   fill: var(--second-bg-color);
+  
 }
 
 .triangleDark {
@@ -88,6 +91,7 @@ h2 {
 }
 .triangleDark .shape-fill {
   fill: var(--main-bg-color);
+  
 }
 
 .triangleProjects {

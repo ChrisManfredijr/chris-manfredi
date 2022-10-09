@@ -2,14 +2,16 @@
 .Home {
   justify-content: center;
   align-items: center;
+  margin:0;
+  padding: 0;
 }
 
 .githubHome {
-    font-size: 60px;
+    font-size: 85px;
 }
 
 .linkedinHome {
-    font-size:60px;
+    font-size:85px;
     margin-left: 10px;
 }
 
@@ -17,17 +19,17 @@
   color:var(--main-accent-color)
 }
 .name {
-  font-size: 130px;
+  font-size: 15vh;
 }
-.title {
-  font-size: 100px;
+.subTitle {
+  font-size:11vh;
   color: var(--main-accent-color);
   font-style: italic;
 }
 
 .homeButtons {
   display: flex;
-  justify-content: right;
+  justify-content: center;
   padding-top: 25px;
 }
 .curve {
