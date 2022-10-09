@@ -98,4 +98,6 @@ h2 {
   bottom: -200%;
 }
 
-
+.p5Canvas.vanta-cavas {
+  left:-50% !important;
+}

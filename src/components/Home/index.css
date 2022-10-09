@@ -3,15 +3,16 @@
   justify-content: center;
   align-items: center;
   margin:0;
-  padding: 0;
+  padding-right:41%;
 }
 
 .githubHome {
-    font-size: 85px;
+    font-size: 65px;
+    margin-left: 10px;
 }
 
 .linkedinHome {
-    font-size:85px;
+    font-size:65px;
     margin-left: 10px;
 }
 
@@ -19,17 +20,21 @@
   color:var(--main-accent-color)
 }
 .name {
-  font-size: 15vh;
+  font-size: 6vh;
+  text-align: end;
 }
 .subTitle {
-  font-size:11vh;
+  font-size:7vh;
   color: var(--main-accent-color);
   font-style: italic;
+  text-align: end;
 }
-
+.aboutButton{
+  padding: 0px;
+}
 .homeButtons {
   display: flex;
-  justify-content: center;
+  justify-content: end;
   padding-top: 25px;
 }
 .curve {
@@ -38,4 +43,3 @@
   width: 100px;
   bottom: 0;
 }
-
