@@ -21,16 +21,16 @@
 }
 .name {
   font-size: 6vh;
-  text-align: end;
+  text-align: right;
 }
 .subTitle {
   font-size:7vh;
   color: var(--main-accent-color);
   font-style: italic;
-  text-align: end;
+  text-align: right;
 }
 .aboutButton{
-  padding: 0px;
+  padding: 10px;
 }
 .homeButtons {
   display: flex;
