@@ -36,11 +36,13 @@ const Home = () => {
                 <h1 className="name">Chris Manfredi</h1>
                 <h2 className="subTitle">Fullstack Developer</h2>
                 <div className="homeButtons">
-                <Button variant="outline-light" className="aboutButton">
+                
                     <Link to="about" spy={true} smooth={true} offset={50} duration={500}>
+                        <Button variant="outline-light" className="aboutButton">
                         About Me
+                        </Button> 
                     </Link>
-                </Button> 
+                
                 <FaGithubSquare className="githubHome" href={""} /><FaLinkedin className="linkedinHome" />
                 </div>
             </div>
