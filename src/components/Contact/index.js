@@ -28,7 +28,6 @@ function Contact() {
                 </div>   
             </Form>
 
-                <div className='line'></div>
             <Link to="home" spy={true} smooth={true} offset={50} duration={250}>
                 <FaAngleDoubleUp className="upArrow" />
             </Link>

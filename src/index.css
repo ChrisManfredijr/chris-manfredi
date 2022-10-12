@@ -40,20 +40,11 @@ h2 {
 
 }
 
-.downArrow {
-  font-size: 45px;
-  position: absolute;
-  bottom:50px;
-  cursor:pointer;
-  z-index: 1;
-  ;
-  
-}
 .downArrow:hover {
   color: var(--main-accent-color);
 }
 .section{
-  height:100vh;
+
   margin:0;
   padding:0;
   display:flex;
@@ -63,7 +54,7 @@ h2 {
 }
 
 .triangleLight {
-  position: absolute;
+  position: relative;
   bottom: 0;
   left: 0;
   width: 100%;

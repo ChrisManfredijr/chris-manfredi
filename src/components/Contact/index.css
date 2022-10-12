@@ -5,8 +5,8 @@
 
 .upArrow {
     font-size: 50px;
-    position: absolute;
-    bottom: -295%;
+    position: relative;
+    bottom: -100%;
     cursor:pointer;
     z-index: 1;
     left:46%;
