@@ -20,23 +20,32 @@
 }
 .skillBox {
     background-color: var(--second-text-color);
-    box-shadow: 8px 8px 0 1px var(--main-accent-color);
-    
-    width:200px;
-    margin:15px;
+    box-shadow: 8px 8px 0 1px var(--main-accent-color), 16px 16px 0 1px var(--main-bg-color);
+    width:300px;
+    margin:20px;
 }
 
 .skillList {
     list-style: none;
     padding:0px;
 }
+.skillList, li {
+    font-size: 30px;
+    text-shadow: 1px 1px black;
+}
+
 
 .skillSection {
     display:flex;
     flex-wrap: wrap;
     justify-content: center;
 }
-
+.skillName {
+    text-decoration: underline;
+    text-decoration-color: var(--main-accent-color);
+    font-size: 45px;
+    padding-top: 10px;
+}
 .aboutArrow {
     font-size: 50px;
     position: absolute;

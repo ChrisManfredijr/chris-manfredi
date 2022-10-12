@@ -23,6 +23,8 @@
 .name {
   font-size: 6vh;
   text-align: right;
+  text-shadow: 6px 2px black;
+
 }
 .subTitle {
   font-size:7vh;
