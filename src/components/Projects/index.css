@@ -3,8 +3,8 @@
 }
 .projectCard{
     
-    
-    height:300px;
+    width:90%;
+    height:100%;
     margin-top:30px;
     display: flex;
     flex-direction: row;
@@ -18,10 +18,16 @@
     flex-direction: column;
     
 }
+
+.projectInfo:nth-child(1){
+    text-align: end;
+    width:90%;
+}
+
 .imgWrapper{
     display: flex;
     justify-content: center;
-    align-items: center;
+   
 }
 .projectImg{
     align-items: center;
@@ -30,6 +36,12 @@
     margin-left:20px;
     border: 1px solid black;
    
+}
+
+.projectImgRight{
+    margin-left: 40px;
+    margin-right:20px;
+    box-shadow: 1px 1px 10px 1px black, -15px 15px 0 1px var(--main-accent-color);
 }
 .projectTitle{
     text-decoration: underline;
@@ -40,6 +52,10 @@
 }
 .projectCard:nth-child(odd) {
     margin-left:auto;
+    background-color: var(--second-bg-color);
+    padding:20px 0 20px 0;
+    width:100%;
+  
 }
 .projectCard:nth-child(4) {
     margin-bottom: 75px;
@@ -50,4 +66,25 @@
 
 .projectButton {
     margin-right:10px;
+}
+.builtWith {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.builtWithRight{
+    display: flex;
+    justify-content: flex-end;
+}
+.builtWithList {
+    list-style: none;
+    color: var(--main-accent-color);
+}
+
+.builtWithList > li {
+    font-size:20px;
+}
+
+.projectBio {
+    font-size:30px;
 }
