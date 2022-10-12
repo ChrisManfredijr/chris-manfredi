@@ -1,18 +1,14 @@
 .Contact{
     background-color: var(--second-bg-color);
-    
+    height: 60vh;
 }
 
 .upArrow {
     font-size: 50px;
-    position: relative;
-    bottom: -100%;
-    cursor:pointer;
-    z-index: 1;
-    left:46%;
+   
 }
 .upArrow:hover {
-    color: var(--main-accent-color);
+    color: var(--main-bg-color);
   }
 .contactInput {
     width:50%;
@@ -36,4 +32,20 @@
     width:50%;
     border-top: 3px solid darkgray;
     margin-top: 50px;
+}
+
+.contactBtn {
+    padding:30px;
+}
+.sendMessage{
+    padding-bottom: 20px;
+    
+}
+.upArrowWrapper{
+    background-color: var(--main-accent-color);
+    position: relative;
+    bottom: -100%;
+    cursor:pointer;
+    z-index: 1;
+    left:46%;
 }

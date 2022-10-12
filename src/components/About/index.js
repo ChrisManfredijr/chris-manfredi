@@ -1,10 +1,10 @@
-import { FaAngleDoubleDown, FaUserCircle } from "react-icons/fa";
-import { Link } from 'react-scroll';
+import { FaUserCircle } from "react-icons/fa";
+
 import "./index.css";
 function About() {
     return (
         <div className="About section" id='about'>
-                <h2 className="title">About Me</h2>
+            <h2 className="title">About Me</h2>
             <div className="photo">
                 <FaUserCircle />
             </div>

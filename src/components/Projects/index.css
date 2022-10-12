@@ -1,23 +1,22 @@
-
+.Projects {
+    align-items: start;
+}
 .projectCard{
-    border: 3px black solid;
-    background-color: lightgray;
-    border-radius: 15px;
-    width:55%;
-    height:250px;
-    margin:20px;
+    background-color: var(--second-text-color);
+    width:60%;
+    height:300px;
+    margin-top:30px;
+    box-shadow: 8px 8px 0 1px var(--main-accent-color);
+    
 }
 
-.projectArrow {
-    font-size: 50px;
-    position: absolute;
-    bottom: -195%;
-    cursor:pointer;
-    z-index: 1;
-    left:46%;
+.projectCard:nth-child(odd) {
+    box-shadow: -8px 8px 0 1px var(--main-accent-color);
+    margin-left:auto;
 }
-
-
-.projectArrow:hover {
-    color: var(--main-accent-color);
-  }
+.projectCard:nth-child(4) {
+    margin-bottom: 75px;
+}
+.projectTitle{
+    margin: 50px;
+}

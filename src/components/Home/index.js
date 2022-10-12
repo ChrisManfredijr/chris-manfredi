@@ -1,4 +1,4 @@
-import { FaGithubSquare, FaLinkedin, FaAngleDoubleDown } from "react-icons/fa";
+import { FaGithubSquare, FaLinkedin} from "react-icons/fa";
 import { Link } from 'react-scroll';
 import Button from 'react-bootstrap/Button';
 import './index.css';
@@ -37,13 +37,14 @@ const Home = () => {
                 <h2 className="subTitle">Fullstack Developer</h2>
                 <div className="homeButtons">
                 
-                    <Link to="about" spy={true} smooth={true} offset={50} duration={500}>
+                    <Link to="about" spy={true} smooth={true} offset={-90} duration={500}>
                         <Button variant="outline-light" className="aboutButton">
                         About Me
                         </Button> 
                     </Link>
+                <a href="https://github.com/ChrisManfredijr" target="_blank" rel="noopener noreferrer"><FaGithubSquare className="githubHome"/></a>
+                <a href="https://www.linkedin.com/in/chris-manfredi-3b09b5114/" target="_blank" rel="noopener noreferrer"><FaLinkedin className="linkedinHome" /></a>
                 
-                <FaGithubSquare className="githubHome" href={""} /><FaLinkedin className="linkedinHome" />
                 </div>
             </div>
         </div>
