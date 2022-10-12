@@ -2,21 +2,52 @@
     align-items: start;
 }
 .projectCard{
-    background-color: var(--second-text-color);
-    width:60%;
+    
+    
     height:300px;
     margin-top:30px;
-    box-shadow: 8px 8px 0 1px var(--main-accent-color);
+    display: flex;
+    flex-direction: row;
+    
     
 }
-
+.projectInfo {
+    padding-left:50px;
+    display: flex;
+    text-align: start;
+    flex-direction: column;
+    
+}
+.imgWrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.projectImg{
+    align-items: center;
+    justify-content: center;
+    box-shadow: 1px 1px 10px 1px black, 15px 15px 0 1px var(--main-accent-color);
+    margin-left:20px;
+    border: 1px solid black;
+   
+}
+.projectTitle{
+    text-decoration: underline;
+    text-decoration-color:var(--main-accent-color);
+    font-size: 50px;
+    font-style:italic;
+    padding-bottom: 20px;
+}
 .projectCard:nth-child(odd) {
-    box-shadow: -8px 8px 0 1px var(--main-accent-color);
     margin-left:auto;
 }
 .projectCard:nth-child(4) {
     margin-bottom: 75px;
 }
-.projectTitle{
+.projectSection{
     margin: 50px;
+}
+
+.projectButton {
+    margin-right:10px;
 }
