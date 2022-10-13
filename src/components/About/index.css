@@ -13,16 +13,20 @@
 
 }
 
-
+.aboutParagraph {
+    font-size: 25px;
+    font-weight:300;
+}
 .photo {
     justify-content: center;
     font-size: 150px;
 }
 .skillBox {
     background-color: var(--second-text-color);
-    box-shadow: 8px 8px 0 1px var(--main-accent-color), 16px 16px 0 1px var(--main-bg-color);
+    box-shadow: 8px 8px 0 1px var(--main-accent-color);
     width:300px;
     margin:20px;
+    height:350px;
 }
 
 .skillList {
@@ -31,10 +35,14 @@
 }
 .skillList, li {
     font-size: 30px;
-    text-shadow: 1px 1px black;
+   
 }
-
-
+.Backend {
+    margin-top:75px;
+}
+.Concepts{
+    margin-top:150px;
+}
 .skillSection {
     display:flex;
     flex-wrap: wrap;
@@ -54,7 +62,30 @@
     z-index: 1;
     left:46%;
 }
+.aboutTitle{
+    margin-top: 50px;
+}
 
 .aboutArrow:hover {
     color: var(--main-accent-color);
   }
+  .custom-shape-divider-bottom-1665629891 {
+    position: relative;
+    bottom: -100%;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1665629891 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 83px;
+}
+
+.custom-shape-divider-bottom-1665629891 .shape-fill {
+    fill: #222426;
+}

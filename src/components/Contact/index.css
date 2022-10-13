@@ -7,9 +7,7 @@
     font-size: 50px;
    
 }
-.upArrow:hover {
-    color: var(--main-bg-color);
-  }
+
 .contactInput {
     width:50%;
     margin-top: 50px;
@@ -39,7 +37,9 @@
 }
 .sendMessage{
     padding-bottom: 20px;
-    
+    text-align: start;
+    font-weight:200;
+    font-style: italic;
 }
 .upArrowWrapper{
     background-color: var(--main-accent-color);
@@ -48,4 +48,5 @@
     cursor:pointer;
     z-index: 1;
     left:46%;
+ 
 }

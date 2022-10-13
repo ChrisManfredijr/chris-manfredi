@@ -4,13 +4,13 @@ import "./index.css";
 function About() {
     return (
         <div className="About section" id='about'>
-            <h2 className="title">About Me</h2>
+            <h2 className="title aboutTitle">About Me</h2>
             <div className="photo">
                 <FaUserCircle />
             </div>
-            <p>My Name is Chris Manfredi, I am a Fullstack Developer...</p>
+            <p className="aboutParagraph">My Name is Chris Manfredi, I am a Fullstack Developer...</p>
             <div className="skillSection">
-                <div className="skillBox">
+                <div className="skillBox Frontend">
                     <ul className="skillList">
                         <li><h3 className="skillName">Frontend</h3></li>
                         <li>HTML</li>
@@ -20,7 +20,7 @@ function About() {
                         <li>React</li>
                     </ul>
                 </div>
-                <div className="skillBox">
+                <div className="skillBox Backend">
                     <ul className="skillList">
                         <li><h3 className="skillName">Backend</h3></li>
                         <li>Node</li>
@@ -31,21 +31,30 @@ function About() {
                     </ul>
                 </div>
 
-                
+                <div className="skillBox Concepts">
+                    <ul className="skillList">
+                        <li><h3 className="skillName">Concepts</h3></li>
+                        <li>Test Driven Development</li>
+                        <li>Object Oriented Programming</li>
+                        <li>Model View Controller</li>
+                        <li>MERN Stack</li>
+                       
+                    </ul>
+                </div>
 
                 <div>
                 </div>
             </div>
-            <div className="triangleLight triangleDark">
+            <div class="custom-shape-divider-bottom-1665629891">
                 <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-                    <path d="M598.97 114.72L0 0 0 120 1200 120 1200 0 598.97 114.72z" className="shape-fill"></path>
+                    <path d="M1200 120L0 16.48 0 0 1200 0 1200 120z" class="shape-fill"></path>
                 </svg>
             </div>
         </div>
     );
 }
 /*
-<div className="skillBox">
+                <div className="skillBox">
                     <ul className="skillList">
                         <li><h3 className="skillName">Concepts</h3></li>
                         <li>Test Driven Development</li>
