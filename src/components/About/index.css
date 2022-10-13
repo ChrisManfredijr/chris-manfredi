@@ -35,6 +35,8 @@
 }
 .skillList, li {
     font-size: 30px;
+    font-weight:300;
+    
    
 }
 .Backend {
@@ -53,6 +55,7 @@
     text-decoration-color: var(--main-accent-color);
     font-size: 45px;
     padding-top: 10px;
+    
 }
 .aboutArrow {
     font-size: 50px;
@@ -69,7 +72,7 @@
 .aboutArrow:hover {
     color: var(--main-accent-color);
   }
-  .custom-shape-divider-bottom-1665629891 {
+  .slant {
     position: relative;
     bottom: -100%;
     left: 0;
@@ -79,13 +82,25 @@
     transform: rotate(180deg);
 }
 
-.custom-shape-divider-bottom-1665629891 svg {
+.slant svg {
     position: relative;
     display: block;
     width: calc(100% + 1.3px);
     height: 83px;
 }
 
-.custom-shape-divider-bottom-1665629891 .shape-fill {
+.slant .shape-fill {
     fill: #222426;
+}
+
+.photoWrapper{
+    --i: 40px;
+
+    width: fit-content;
+    box-shadow: 0 -300px var(--main-accent-color) inset;
+    text-indent: calc(-1*var(--i));
+    padding-right: var(--i);
+    margin-left: var(--i);
+    margin-bottom: 50px;
+    margin-top:50px;
 }

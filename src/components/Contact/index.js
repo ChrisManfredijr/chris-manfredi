@@ -53,12 +53,10 @@ function Contact() {
                     </Button>
                 </div>   
             </Form>
-            <div>
 
-            </div>
             <Link to="home" spy={true} smooth={true} offset={50} duration={250}>
                 <div className='upArrowWrapper'>
-                    <FaAngleDoubleUp className="upArrow" />
+                <FaAngleDoubleUp className="upArrow" />
                 </div>        
             </Link>
         </div>

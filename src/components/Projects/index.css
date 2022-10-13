@@ -12,10 +12,11 @@
     
 }
 .projectInfo {
-    padding-left:50px;
+
     display: flex;
     text-align: start;
     flex-direction: column;
+    padding:50px;
     
 }
 
@@ -85,8 +86,10 @@
 
 .builtWithList > li {
     font-size:20px;
+    
 }
 
 .projectBio {
     font-size:30px;
+    font-weight:300;
 }
