@@ -92,3 +92,11 @@ h2 {
 .p5Canvas.vanta-cavas {
   left:-50% !important;
 }
+
+.form-control{
+  background-color: var(--second-text-color);
+}
+.form-control:focus{
+  background-color:var(--second-text-color);
+  color:black;
+}

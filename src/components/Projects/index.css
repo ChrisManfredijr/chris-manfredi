@@ -55,6 +55,7 @@
     background-color: var(--second-bg-color);
     padding:20px 0 20px 0;
     width:100%;
+   
   
 }
 .projectCard:nth-child(4) {
@@ -62,6 +63,7 @@
 }
 .projectSection{
     margin: 50px;
+    
 }
 
 .projectButton {
