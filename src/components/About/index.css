@@ -110,3 +110,12 @@
     margin-bottom: 50px;
     margin-top:50px;
 }
+
+@media only screen and (max-width: 1050px) {
+    .Backend {
+        margin-top:20px;
+    }
+    .Concepts{
+        margin-top:20px;
+    }
+  }

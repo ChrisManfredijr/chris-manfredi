@@ -38,7 +38,9 @@
     border: 1px solid black;
    
 }
-
+.projectInfoRight{
+    text-align: end;
+}
 .projectImgRight{
     margin-left: 40px;
     margin-right:20px;
@@ -56,6 +58,7 @@
     background-color: var(--second-bg-color);
     padding:20px 0 20px 0;
     width:100%;
+    
    
   
 }
@@ -93,3 +96,38 @@
     font-size:30px;
     font-weight:300;
 }
+.smallScreenImg {
+    display: none;
+}
+.largeScreenImg {
+    display: contents;
+}
+@media only screen and (max-width: 1050px) {
+    .projectCard{
+        flex-wrap: wrap;
+    }
+    .projectInfo{
+        min-width:100%;
+    }
+    .smallScreenImg {
+        display: contents;
+    }
+    .largeScreenImg {
+        display: none;
+    }
+    .projectInfo:nth-child(1){
+        text-align: start;
+        width:90%;
+    }
+    .builtWithRight{
+        justify-content: flex-start;
+    }
+    .projectCard {
+        justify-content: center;
+       
+    }
+    .projectInfo {
+        align-items: center;
+        text-align: start;
+    }
+  }

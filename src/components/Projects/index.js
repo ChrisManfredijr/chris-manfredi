@@ -39,7 +39,11 @@ function Projects() {
 
             </div>
             <div className="projectCard">
-                <div className='projectInfo'>
+                <div className='imgWrapper smallScreenImg'>
+                    <img src={tastemakr} alt="tastemakr website" width="600" height="360" className='projectImgRight' />
+                </div>
+
+                <div className='projectInfo projectInfoRight'>
                     <h3 className="projectTitle">Tastemakr</h3>
                     <p className='projectBio'>Tastemakr is a search engine which uses the LAST.FM API to generate music recommendations based on user input. Users can log in and save recommendations to the database</p>
                     <div className='builtWithRight'>
@@ -64,12 +68,12 @@ function Projects() {
                         </Button>
                     </div>
                 </div>
-                <div className='imgWrapper'>
+                <div className='imgWrapper largeScreenImg'>
                     <img src={tastemakr} alt="tastemakr website" width="600" height="360" className='projectImgRight' />
                 </div>
             </div>
             <div className="projectCard">
-            <div className='imgWrapper'>
+                <div className='imgWrapper'>
                     <img src={tastemakr} alt="tastemakr website" width="600" height="360" className='projectImg' />
                 </div>
 
