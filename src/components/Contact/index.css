@@ -45,7 +45,7 @@
 .upArrowWrapper{
     background-color: var(--main-accent-color);
     position: relative;
-    bottom: -100%;
+    bottom: -510%;
     cursor:pointer;
     z-index: 1;
     left:46%;

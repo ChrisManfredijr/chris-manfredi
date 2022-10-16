@@ -3,5 +3,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    
 
 }
+
+.footerText{
+    font-weight: 200;
+    font-size: 17px;
+    font-style: italic;
+}
+

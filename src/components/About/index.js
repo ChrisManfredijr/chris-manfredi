@@ -1,5 +1,7 @@
-import { FaUserCircle } from "react-icons/fa";
-import Chris from '../../assets/images/chris.png'
+import { FaUserCircle, FaFilePdf } from "react-icons/fa";
+import Chris from '../../assets/images/chris.png';
+import Button from 'react-bootstrap/Button';
+import CV from '../../assets/ChrisManfredi.pdf'
 import "./index.css";
 function About() {
     return (
@@ -8,7 +10,12 @@ function About() {
             <div className="photoWrapper">
                 <img src={Chris} alt= "Chris Manfredi, Fullstack Developer" width="295" height="435" className="photo"/>
             </div>
-            <p className="aboutParagraph">My Name is Chris Manfredi, I am a Fullstack Developer...</p>
+            <p className="aboutParagraph">My name is Chris Manfredi, I am fullstack developer commited to life-long learning and constant improvement</p>
+            <a href={CV} target="_blank" rel="noopener noreferrer">
+                    <Button variant="outline-light" className="CvButton">
+                        Resume <FaFilePdf/>
+                    </Button> 
+            </a>        
             <div className="skillSection">
                 <div className="skillBox Frontend">
                     <ul className="skillList">

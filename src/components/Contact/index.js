@@ -9,7 +9,6 @@ import emailjs from "emailjs-com";
 function Contact() {
     function sendEmail(e) {
         e.preventDefault();
-        console.log(e.target);
         emailjs.sendForm('gmail', 'template_nzgxzjn', e.target, 'b-HdTsNp9POAZmT8W')
             .then((result) => {
                 console.log(result.text);

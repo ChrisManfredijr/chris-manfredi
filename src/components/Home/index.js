@@ -5,6 +5,7 @@ import './index.css';
 
 import { useState, useEffect, useRef } from 'react'
 import trunk from 'vanta/dist/vanta.trunk.min'
+
 // Make sure window.THREE is defined, e.g. by including three.min.js in the document head using a <script> tag
 
 const Home = () => {
@@ -31,6 +32,7 @@ const Home = () => {
         }
     }, [vantaEffect])
     return <div ref={myRef} id="">
+        
         <div className="Home section" id="home">
             <div>
                 <h1 className="name">Chris Manfredi</h1>
