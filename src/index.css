@@ -96,6 +96,8 @@ h2 {
 .form-control{
   background-color: var(--second-text-color);
   font-size: 25px;
+  color:var(--main-text-color);
+  font-weight: 300;
 }
 .form-control:focus{
   background-color:var(--second-text-color);
