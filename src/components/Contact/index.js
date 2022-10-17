@@ -21,14 +21,17 @@ function Contact() {
     
     return (
        
-        <div className="Contact section" id="contact">
-            <h2 className='title'>Contact Me:</h2>
+        <div className="Contact" id="contact">
+            
+                <h2 className='title'>Contact Me:</h2>
+           
+            
             
             <div className='contactBtn'>
                 <a href="https://github.com/ChrisManfredijr" target="_blank" rel="noopener noreferrer"><FaGithubSquare className="githubHome"/></a>
                 <a href="https://www.linkedin.com/in/chris-manfredi-3b09b5114/" target="_blank" rel="noopener noreferrer"><FaLinkedin className="linkedinHome" /></a>
             </div>
-            
+            <div className='formWrapper'>
             <Form className='contactInput' onSubmit={sendEmail}>
                 <h3 className='sendMessage'>Send me a message:</h3>
                 <Form.Group className="mb-2" controlId="formBasicEmail" >
@@ -52,6 +55,8 @@ function Contact() {
                     </Button>
                 </div>   
             </Form>
+            </div>
+            
 
             <Link to="home" spy={true} smooth={true} offset={50} duration={250}>
                 <div className='upArrowWrapper'>

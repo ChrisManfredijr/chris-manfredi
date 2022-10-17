@@ -4,6 +4,7 @@ import Button from 'react-bootstrap/Button';
 function Projects() {
     return (
         <div className="Projects section" id="projects">
+            
             <h2 className='title projectSection'>My Projects:</h2>
 
             <div className="projectCard">
@@ -40,7 +41,7 @@ function Projects() {
             </div>
             <div className="projectCard">
                 <div className='imgWrapper smallScreenImg'>
-                    <img src={tastemakr} alt="tastemakr website" width="600" height="360" className='projectImgRight' />
+                    <img src={tastemakr} alt="tastemakr website" width="600" height="360" className='projectImg projectImgRight' />
                 </div>
 
                 <div className='projectInfo projectInfoRight'>
