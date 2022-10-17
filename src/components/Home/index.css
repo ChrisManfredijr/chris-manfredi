@@ -46,3 +46,19 @@
   width: 100px;
   bottom: 0;
 }
+
+@media only screen and (max-width: 900px) {
+  .Home{
+    padding-right:0%;
+    
+  }
+  .name{
+    text-align: center;
+  }
+  .subTitle{
+    text-align: center;
+  }
+  .homeButtons{
+    justify-content: center;
+  }
+}
