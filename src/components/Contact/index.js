@@ -32,7 +32,7 @@ function Contact() {
                 <a href="https://www.linkedin.com/in/chris-manfredi-3b09b5114/" target="_blank" rel="noopener noreferrer"><FaLinkedin className="linkedinHome" /></a>
             </div>
             <div className='formWrapper'>
-            <Form className='contactInput' onSubmit={sendEmail}>
+            <Form  className='contactInput' onSubmit={sendEmail}>
                 <h3 className='sendMessage'>Send me a message:</h3>
                 <Form.Group className="mb-2" controlId="formBasicEmail" >
                     <Form.Control type="name" placeholder="Name" name="name"/>
@@ -60,7 +60,7 @@ function Contact() {
 
             <Link to="home" spy={true} smooth={true} offset={50} duration={250}>
                 <div className='upArrowWrapper'>
-                <FaAngleDoubleUp className="upArrow" />
+                <FaAngleDoubleUp className= "upArrow" />
                 </div>        
             </Link>
         </div>

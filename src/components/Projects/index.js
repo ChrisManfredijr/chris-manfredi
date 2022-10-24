@@ -1,5 +1,6 @@
 import './index.css'
 import tastemakr from '../../assets/images/tastemakr.png'
+import { BsCodeSquare, FaLinkedin} from "react-icons/fa";
 import Button from 'react-bootstrap/Button';
 function Projects() {
     return (
@@ -7,7 +8,7 @@ function Projects() {
             
             <h2 className='title projectSection'>My Projects:</h2>
 
-            <div className="projectCard">
+            <div data-aos="fade-left" className="projectCard">
                 <div className='imgWrapper'>
                     <img src={tastemakr} alt="tastemakr website" width="600" height="360" className='projectImg' />
                 </div>
@@ -39,7 +40,7 @@ function Projects() {
                 </div>
 
             </div>
-            <div className="projectCard">
+            <div data-aos="fade-right" className="projectCard">
                 <div className='imgWrapper smallScreenImg'>
                     <img src={tastemakr} alt="tastemakr website" width="600" height="360" className='projectImg projectImgRight' />
                 </div>
@@ -73,7 +74,7 @@ function Projects() {
                     <img src={tastemakr} alt="tastemakr website" width="600" height="360" className='projectImgRight' />
                 </div>
             </div>
-            <div className="projectCard">
+            <div data-aos="fade-left" className="projectCard">
                 <div className='imgWrapper'>
                     <img src={tastemakr} alt="tastemakr website" width="600" height="360" className='projectImg' />
                 </div>

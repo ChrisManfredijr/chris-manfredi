@@ -36,7 +36,7 @@ const Home = () => {
         <div className="Home section" id="home">
             <div>
                 <h1 className="name">Chris Manfredi</h1>
-                <h2 className="subTitle">Fullstack Developer</h2>
+                <h2 className="subTitle">Web  Developer</h2>
                 <div className="homeButtons">
                 
                     <Link to="about" spy={true} smooth={true} offset={-90} duration={500}>

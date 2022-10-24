@@ -3,21 +3,27 @@ import Chris from '../../assets/images/chris.png';
 import Button from 'react-bootstrap/Button';
 import CV from '../../assets/ChrisManfredi.pdf'
 import "./index.css";
+
+import Aos from "aos";
 function About() {
+    
+   
+    
     return (
+     
         <div className="About section" id='about'>
-            <h2 className="title aboutTitle">About Me</h2>
+            <h2 data-aos="fade-left" className="title aboutTitle">About Me</h2>
             <div className="photoWrapper">
                 <img src={Chris} alt= "Chris Manfredi, Fullstack Developer" width="295" height="435" className="photo"/>
             </div>
-            <p className="aboutParagraph">My name is Chris Manfredi, I am fullstack developer commited to life-long learning and constant improvement</p>
+            <p className="aboutParagraph">My name is Chris Manfredi, I am web developer commited to life-long learning and constant improvement</p>
             <a href={CV} target="_blank" rel="noopener noreferrer">
                     <Button variant="outline-light" className="CvButton">
                         Resume <FaFilePdf/>
                     </Button> 
             </a>        
             <div className="skillSection">
-                <div className="skillBox Frontend">
+                <div data-aos="fade-up" className="skillBox Frontend">
                     <ul className="skillList">
                         <li><h3 className="skillName">Frontend</h3></li>
                         <li>HTML</li>
@@ -27,7 +33,7 @@ function About() {
                         <li>React</li>
                     </ul>
                 </div>
-                <div className="skillBox Backend">
+                <div data-aos="fade-up" className="skillBox Backend">
                     <ul className="skillList">
                         <li><h3 className="skillName">Backend</h3></li>
                         <li>Node</li>
@@ -38,7 +44,7 @@ function About() {
                     </ul>
                 </div>
 
-                <div className="skillBox Concepts">
+                <div data-aos="fade-up" className="skillBox Concepts">
                     <ul className="skillList">
                         <li><h3 className="skillName">Concepts</h3></li>
                         <li>Test Driven Development</li>
