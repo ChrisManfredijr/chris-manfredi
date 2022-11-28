@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.4a5d05ca.css",
+    "main.js": "/static/js/main.8ea25c33.js",
+    "static/media/chris.png": "/static/media/chris.6f943a37d181d5b6f9d7.png",
+    "static/media/tastemakr.png": "/static/media/tastemakr.414c59871a40e9a13784.png",
+    "static/media/spotifynow.png": "/static/media/spotifynow.797d86ccc72bb44174ee.png",
+    "static/media/connectfour.png": "/static/media/connectfour.8127e5fe9548e4d594a3.png",
+    "static/media/ChrisManfredi.pdf": "/static/media/ChrisManfredi.bd17215fad9ddc4b0b73.pdf",
+    "index.html": "/index.html",
+    "main.4a5d05ca.css.map": "/static/css/main.4a5d05ca.css.map",
+    "main.8ea25c33.js.map": "/static/js/main.8ea25c33.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4a5d05ca.css",
+    "static/js/main.8ea25c33.js"
+  ]
+}
