@@ -1,22 +1,33 @@
 
 import './index.css'
 import { Link } from 'react-scroll';
+import {useState} from 'react';
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import { FaGithubSquare, FaLinkedin, FaAngleDoubleUp } from "react-icons/fa";
 import emailjs from "emailjs-com";
 
 function Contact() {
-    function sendEmail(e) {
-        e.preventDefault();
-        emailjs.sendForm('gmail', 'template_nzgxzjn', e.target, 'b-HdTsNp9POAZmT8W')
+    
+    function isValidEmail(email) {
+        return /\S+@\S+\.\S+/.test(email);
+    }
+    
+    
+    
+    
+    function sendEmail(event) {
+        event.preventDefault();
+        console.log(event.target.value);
+
+        emailjs.sendForm('gmail', 'template_nzgxzjn', event.target, 'b-HdTsNp9POAZmT8W')
             .then((result) => {
                 console.log(result.text);
             }, (error) => {
                 console.log(error.text);
             });
 
-            e.target.reset()
+            event.target.reset()
     }
     
     return (
@@ -57,12 +68,6 @@ function Contact() {
             </Form>
             </div>
             
-
-            <Link to="home" spy={true} smooth={true} offset={50} duration={250}>
-                <div className='upArrowWrapper'>
-                <FaAngleDoubleUp className= "upArrow" />
-                </div>        
-            </Link>
         </div>
     )
 }

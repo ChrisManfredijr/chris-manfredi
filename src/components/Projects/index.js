@@ -1,41 +1,48 @@
 import './index.css'
-import tastemakr from '../../assets/images/tastemakr.png'
-import { BsCodeSquare, FaLinkedin} from "react-icons/fa";
+import tastemakr from '../../assets/images/tastemakr.png';
+import connectfour from '../../assets/images/connectfour.png';
+import spotifynow from '../../assets/images/spotifynow.png';
+
+import { BsCodeSquare, FaLinkedin } from "react-icons/fa";
 import Button from 'react-bootstrap/Button';
 function Projects() {
     return (
         <div className="Projects section" id="projects">
-            
+
             <h2 className='title projectSection'>My Projects:</h2>
 
             <div data-aos="fade-left" className="projectCard">
                 <div className='imgWrapper'>
-                    <img src={tastemakr} alt="tastemakr website" width="600" height="360" className='projectImg' />
+                    <img src={connectfour} alt="tastemakr website" width="600" height="360" className='projectImg' />
                 </div>
 
                 <div className='projectInfo'>
-                    <h3 className="projectTitle">Tastemakr</h3>
-                    <p className='projectBio'>Tastemakr is a search engine which uses the LAST.FM API to generate music recommendations based on user input. Users can log in and save recommendations to the database</p>
+                    <h3 className="projectTitle">Connect Four</h3>
+                    <p className='projectBio'>Play Connect Four against another player in the browser. Game will automatically detect wins and keep score. Save this React app as a Progressive Web Application</p>
                     <div className='builtWith'>
                         <ul className="builtWithList">
                             <li>React</li>
-                            <li>Express</li>
-                            <li>Node</li>
-                            <li>Mongo</li>
+                            <li>SPA</li>
+                            <li>PWA</li>
+
                         </ul>
                         <ul className="builtWithList">
-                            <li>LAST.FM api</li>
-                            <li>React Boostrap</li>
-                            <li>GraphQL</li>
+                            <li>Game design</li>
+                            <li>JSX</li>
+                            <li>CSS</li>
                         </ul>
                     </div>
                     <div className='projectBtnWrapper'>
-                        <Button variant="outline-light" className="projectButton">
-                            visit site
-                        </Button>
-                        <Button variant="outline-light" className="projectButton">
-                            view code
-                        </Button>
+                        <a href="https://connect4-manfredi.herokuapp.com/" target="_blank" rel="noopener noreferrer">
+                            <Button variant="outline-light" className="projectButton">
+                                visit site
+                            </Button>
+                        </a>
+                        <a href="https://github.com/ChrisManfredijr/connectfour" target="_blank" rel="noopner noreferrer">
+                            <Button variant="outline-light" className="projectButton">
+                                view code
+                            </Button>
+                        </a>
                     </div>
                 </div>
 
@@ -47,7 +54,7 @@ function Projects() {
 
                 <div className='projectInfo projectInfoRight'>
                     <h3 className="projectTitle">Tastemakr</h3>
-                    <p className='projectBio'>Tastemakr is a search engine which uses the LAST.FM API to generate music recommendations based on user input. Users can log in and save recommendations to the database</p>
+                    <p className='projectBio'>Generate music recommendations by entering an artist/band name. Login to save and view previously saved recommendations. MERN Stack application with REST api and GraphQL</p>
                     <div className='builtWithRight'>
                         <ul className="builtWithList">
                             <li>React</li>
@@ -62,12 +69,16 @@ function Projects() {
                         </ul>
                     </div>
                     <div className='projectBtnWrapper'>
-                        <Button variant="outline-light" className="projectButton">
-                            visit site
-                        </Button>
-                        <Button variant="outline-light" className="projectButton">
-                            view code
-                        </Button>
+                        <a href="https://tastemakr.herokuapp.com/" target="_blank" rel="noopener noreferrer">
+                            <Button variant="outline-light" className="projectButton">
+                                visit site
+                            </Button>
+                        </a>
+                        <a href="https://github.com/ChrisManfredijr/tastemakr" target="_blank" rel="noopner noreferrer">
+                            <Button variant="outline-light" className="projectButton">
+                                view code
+                            </Button>
+                        </a>
                     </div>
                 </div>
                 <div className='imgWrapper largeScreenImg'>
@@ -76,32 +87,39 @@ function Projects() {
             </div>
             <div data-aos="fade-left" className="projectCard">
                 <div className='imgWrapper'>
-                    <img src={tastemakr} alt="tastemakr website" width="600" height="360" className='projectImg' />
+                    <img src={spotifynow} alt="tastemakr website" width="600" height="360" className='projectImg' />
                 </div>
 
                 <div className='projectInfo'>
-                    <h3 className="projectTitle">Tastemakr</h3>
-                    <p className='projectBio'>Tastemakr is a search engine which uses the LAST.FM API to generate music recommendations based on user input. Users can log in and save recommendations to the database</p>
+                    <h3 className="projectTitle">Spotify Now</h3>
+                    <p className='projectBio'>Login to Spotify to view your top songs and artists for the year. Generate a custom playlist with your top songs. You can also share your playist to the public database. Integrates MVC architecture design patterns and 0Auth.</p>
                     <div className='builtWith'>
                         <ul className="builtWithList">
-                            <li>React</li>
-                            <li>Express</li>
-                            <li>Node</li>
-                            <li>Mongo</li>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li>
+                            <li>Bootstrap</li>
+                            <li>Handlebars</li>
                         </ul>
                         <ul className="builtWithList">
-                            <li>LAST.FM api</li>
-                            <li>React Boostrap</li>
-                            <li>GraphQL</li>
+                            <li>Node</li>
+                            <li>Express</li>
+                            <li>spotify-web-api-node</li>
+                            <li>MySql</li>
+                            <li>Sequelize</li>
                         </ul>
                     </div>
                     <div className='projectBtnWrapper'>
-                        <Button variant="outline-light" className="projectButton">
-                            visit site
-                        </Button>
-                        <Button variant="outline-light" className="projectButton">
-                            view code
-                        </Button>
+                        <a href="https://spotify-wrapped-now.herokuapp.com/" target="_blank" rel="noopener noreferrer">
+                            <Button variant="outline-light" className="projectButton">
+                                visit site
+                            </Button>
+                        </a>
+                        <a href="https://github.com/ajjaswal/spotify-now" target="_blank" rel="noopner noreferrer">
+                            <Button variant="outline-light" className="projectButton">
+                                view code
+                            </Button>
+                        </a>
                     </div>
                 </div>
 
