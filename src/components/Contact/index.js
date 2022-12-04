@@ -1,18 +1,12 @@
-
 import './index.css'
-import { Link } from 'react-scroll';
-import {useState} from 'react';
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
-import { FaGithubSquare, FaLinkedin, FaAngleDoubleUp } from "react-icons/fa";
+import { FaGithubSquare, FaLinkedin} from "react-icons/fa";
 import emailjs from "emailjs-com";
 
 function Contact() {
     
-    function isValidEmail(email) {
-        return /\S+@\S+\.\S+/.test(email);
-    }
-    
+ 
     
     
     

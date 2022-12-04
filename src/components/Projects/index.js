@@ -2,8 +2,6 @@ import './index.css'
 import tastemakr from '../../assets/images/tastemakr.png';
 import connectfour from '../../assets/images/connectfour.png';
 import spotifynow from '../../assets/images/spotifynow.png';
-
-import { BsCodeSquare, FaLinkedin } from "react-icons/fa";
 import Button from 'react-bootstrap/Button';
 function Projects() {
     return (

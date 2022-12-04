@@ -1,10 +1,10 @@
-import { FaUserCircle, FaFilePdf } from "react-icons/fa";
+import  {FaFilePdf}  from "react-icons/fa";
 import Chris from '../../assets/images/chris.png';
 import Button from 'react-bootstrap/Button';
 import CV from '../../assets/ChrisManfredi.pdf'
 import "./index.css";
 
-import Aos from "aos";
+
 function About() {
     
    
