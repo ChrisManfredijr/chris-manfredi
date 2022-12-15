@@ -71,4 +71,10 @@
     .Contact{
         height: 100%;
     }
+    .contactInput{
+        padding-bottom: 50px;
+    }
+    .title{
+        font-size: 70px;
+    }
   }
