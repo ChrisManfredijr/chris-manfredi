@@ -31,7 +31,7 @@ function Projects() {
                         </ul>
                     </div>
                     <div className='projectBtnWrapper'>
-                        <a href="https://connect4-manfredi.herokuapp.com/" target="_blank" rel="noopener noreferrer">
+                        <a href="https://connectfour-manfredi.netlify.app/" target="_blank" rel="noopener noreferrer">
                             <Button variant="outline-light" className="projectButton">
                                 visit site
                             </Button>
