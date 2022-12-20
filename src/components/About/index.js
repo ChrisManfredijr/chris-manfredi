@@ -16,7 +16,7 @@ function About() {
             <div className="photoWrapper">
                 <img src={Chris} alt= "Chris Manfredi, Fullstack Developer" width="295" height="435" className="photo"/>
             </div>
-            <p className="aboutParagraph">My name is Chris Manfredi, I am web developer commited to life-long learning and constant improvement</p>
+            <p className="aboutParagraph">My name is Chris Manfredi, I am web developer commited to life-long learning and constant improvement. I </p>
             <a href={CV} target="_blank" rel="noopener noreferrer">
                     <Button variant="outline-light" className="CvButton">
                         Resume <FaFilePdf/>
@@ -25,7 +25,7 @@ function About() {
             <div className="skillSection">
                 <div data-aos="fade-up" className="skillBox Frontend">
                     <ul className="skillList">
-                        <li><h3 className="skillName">Frontend</h3></li>
+                        <li className="nameWrapper"><h3 className="skillName">Frontend</h3></li>
                         <li>HTML</li>
                         <li>CSS</li>
                         <li>JavaScript</li>
@@ -35,7 +35,7 @@ function About() {
                 </div>
                 <div data-aos="fade-up" className="skillBox Backend">
                     <ul className="skillList">
-                        <li><h3 className="skillName">Backend</h3></li>
+                        <li className="nameWrapper"><h3 className="skillName">Backend</h3></li>
                         <li>Node</li>
                         <li>Express</li>
                         <li>mySql</li>
@@ -46,7 +46,7 @@ function About() {
 
                 <div data-aos="fade-up" className="skillBox Concepts">
                     <ul className="skillList">
-                        <li><h3 className="skillName">Concepts</h3></li>
+                        <li className="nameWrapper"><h3 className="skillName">Concepts</h3></li>
                         <li>Test Driven Development</li>
                         <li>Object Oriented Programming</li>
                         <li>Model View Controller</li>

@@ -67,7 +67,7 @@
     padding-top:20px;
 }
 
-@media only screen and (max-height: 759px) {
+@media only screen and (max-width: 759px) {
     .Contact{
         height: 100%;
     }

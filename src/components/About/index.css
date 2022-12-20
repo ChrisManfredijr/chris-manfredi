@@ -3,8 +3,7 @@
    
 }
 .title {
-    --i: 20px;
-
+  --i: 20px;
   width: fit-content;
   box-shadow: 0 -30px var(--main-accent-color) inset;
   text-indent: calc(-1*var(--i));
@@ -55,13 +54,23 @@
     display:flex;
     flex-wrap: wrap;
     justify-content: center;
+    text-align: center;
 }
 .skillName {
-    text-decoration: underline;
-    text-decoration-color: var(--main-accent-color);
+    --i: 20px;
+    width: fit-content;
+    box-shadow: 0 -20px var(--main-accent-color) inset;
+    text-indent: calc(-1*var(--i));
+    padding-right: var(--i);
+    margin-left: var(--i);
     font-size: 45px;
     padding-top: 10px;
     
+}
+.nameWrapper{
+    width:100%;
+    display: flex;
+    justify-content: center;
 }
 .aboutArrow {
     font-size: 50px;
