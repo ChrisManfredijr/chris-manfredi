@@ -16,7 +16,7 @@ function About() {
             <div className="photoWrapper">
                 <img src={Chris} alt= "Chris Manfredi, Fullstack Developer" width="295" height="435" className="photo"/>
             </div>
-            <p className="aboutParagraph">My name is Chris Manfredi, I am web developer commited to life-long learning and constant improvement. I </p>
+            <p className="aboutParagraph">My name is Chris Manfredi, I am web developer commited to life-long learning and constant improvement.</p>
             <a href={CV} target="_blank" rel="noopener noreferrer">
                     <Button variant="outline-light" className="CvButton">
                         Resume <FaFilePdf/>
