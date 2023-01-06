@@ -39,7 +39,7 @@ const Home = () => {
                 <h2 className="subTitle">Web  Developer</h2>
                 <div className="homeButtons">
                 
-                    <Link to="about" spy={true} smooth={true} offset={-90} duration={500}>
+                    <Link to="about" spy={true} smooth={false} offset={-90} duration={500}>
                         <Button variant="outline-light" className="aboutButton">
                         About Me
                         </Button> 
