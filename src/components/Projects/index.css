@@ -132,7 +132,10 @@
     }
     
   }
-
+  .underPrj{
+    font-size: 20px;
+    line-height: 20px;
+  }
   @media only screen and (max-width:600px){
     .projectImg {
         width:300px;

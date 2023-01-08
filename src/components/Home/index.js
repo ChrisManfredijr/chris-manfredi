@@ -1,8 +1,5 @@
-import { FaGithubSquare, FaLinkedin} from "react-icons/fa";
-import { Link } from 'react-scroll';
-import Button from 'react-bootstrap/Button';
 import './index.css';
-
+import { Link } from 'react-scroll';
 import { useState, useEffect, useRef } from 'react'
 import trunk from 'vanta/dist/vanta.trunk.min'
 
@@ -36,16 +33,12 @@ const Home = () => {
         <div className="Home section" id="home">
             <div>
                 <h1 className="name">Chris Manfredi</h1>
-                <h2 className="subTitle">Web  Developer</h2>
+                <h2 className="subTitle">Web Developer</h2>
                 <div className="homeButtons">
                 
-                    <Link to="about" spy={true} smooth={false} offset={-90} duration={500}>
-                        <Button variant="outline-light" className="aboutButton">
-                        About Me
-                        </Button> 
-                    </Link>
-                <a href="https://github.com/ChrisManfredijr" target="_blank" rel="noopener noreferrer"><FaGithubSquare className="githubHome"/></a>
-                <a href="https://www.linkedin.com/in/chris-manfredi-3b09b5114/" target="_blank" rel="noopener noreferrer"><FaLinkedin className="linkedinHome" /></a>
+                <Link to="about" spy={true} smooth={false} offset={-90} duration={500} className="underBtn">ABOUT ME</Link>
+                <a href="https://github.com/ChrisManfredijr" target="_blank" rel="noopener noreferrer" className="underBtn">GITHUB</a>
+                <a href="https://www.linkedin.com/in/chris-manfredi-3b09b5114/" target="_blank" rel="noopener noreferrer" className="underBtn">LINKEDIN</a>
                 
                 </div>
             </div>

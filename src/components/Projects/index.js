@@ -2,7 +2,7 @@ import './index.css'
 import tastemakr from '../../assets/images/tastemakr.png';
 import connectfour from '../../assets/images/connectfour.png';
 import spotifynow from '../../assets/images/spotifynow.png';
-import Button from 'react-bootstrap/Button';
+
 function Projects() {
     return (
         <div className="Projects section" id="projects">
@@ -31,15 +31,11 @@ function Projects() {
                         </ul>
                     </div>
                     <div className='projectBtnWrapper'>
-                        <a href="https://connectfour-manfredi.netlify.app/" target="_blank" rel="noopener noreferrer">
-                            <Button variant="outline-light" className="projectButton">
-                                visit site
-                            </Button>
+                        <a href="https://connectfour-manfredi.netlify.app/" target="_blank" rel="noopener noreferrer" className='underBtn underPrj'>
+                            VIEW SITE
                         </a>
-                        <a href="https://github.com/ChrisManfredijr/connectfour" target="_blank" rel="noopner noreferrer">
-                            <Button variant="outline-light" className="projectButton">
-                                view code
-                            </Button>
+                        <a href="https://github.com/ChrisManfredijr/connectfour" target="_blank" rel="noopner noreferrer" className='underBtn underPrj'> 
+                            VIEW CODE
                         </a>
                     </div>
                 </div>
@@ -67,15 +63,11 @@ function Projects() {
                         </ul>
                     </div>
                     <div className='projectBtnWrapper'>
-                        <a href="https://tastemakr.herokuapp.com/" target="_blank" rel="noopener noreferrer">
-                            <Button variant="outline-light" className="projectButton">
-                                visit site
-                            </Button>
+                        <a href="https://tastemakr.herokuapp.com/" target="_blank" rel="noopener noreferrer" className='underBtn underPrj'>
+                                VISIT SITE
                         </a>
-                        <a href="https://github.com/ChrisManfredijr/tastemakr" target="_blank" rel="noopner noreferrer">
-                            <Button variant="outline-light" className="projectButton">
-                                view code
-                            </Button>
+                        <a href="https://github.com/ChrisManfredijr/tastemakr" target="_blank" rel="noopner noreferrer" className='underBtn underPrj'>
+                            VIEW CODE
                         </a>
                     </div>
                 </div>
@@ -108,15 +100,11 @@ function Projects() {
                         </ul>
                     </div>
                     <div className='projectBtnWrapper'>
-                        <a href="https://spotify-wrapped-now.herokuapp.com/" target="_blank" rel="noopener noreferrer">
-                            <Button variant="outline-light" className="projectButton">
-                                visit site
-                            </Button>
+                        <a href="https://spotify-wrapped-now.herokuapp.com/" target="_blank" rel="noopener noreferrer" className='underBtn underPrj'>
+                            VISIT SITE
                         </a>
-                        <a href="https://github.com/ajjaswal/spotify-now" target="_blank" rel="noopner noreferrer">
-                            <Button variant="outline-light" className="projectButton">
-                                view code
-                            </Button>
+                        <a href="https://github.com/ajjaswal/spotify-now" target="_blank" rel="noopner noreferrer" className='underBtn underPrj'>
+                            VIEW CODE
                         </a>
                     </div>
                 </div>

@@ -1,8 +1,6 @@
-import  {FaFilePdf}  from "react-icons/fa";
-import Chris from '../../assets/images/chris.png';
-import Button from 'react-bootstrap/Button';
-import CV from '../../assets/ChrisManfredi.pdf'
 import "./index.css";
+import Chris from '../../assets/images/chris.png';
+import CV from '../../assets/ChrisManfredi.pdf'
 
 
 function About() {
@@ -17,10 +15,8 @@ function About() {
                 <img src={Chris} alt= "Chris Manfredi, Fullstack Developer" width="295" height="435" className="photo"/>
             </div>
             <p className="aboutParagraph">My name is Chris Manfredi, I am web developer commited to life-long learning and constant improvement.</p>
-            <a href={CV} target="_blank" rel="noopener noreferrer">
-                    <Button variant="outline-light" className="CvButton">
-                        Resume <FaFilePdf/>
-                    </Button> 
+            <a href={CV} target="_blank" rel="noopener noreferrer" className="underBtn">
+                    RESUME
             </a>        
             <div className="skillSection">
                 <div data-aos="fade-up" className="skillBox Frontend">

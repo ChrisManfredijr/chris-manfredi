@@ -1,7 +1,5 @@
 import './index.css'
-import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
-import { FaGithubSquare, FaLinkedin} from "react-icons/fa";
 import emailjs from "emailjs-com";
 
 function Contact() {
@@ -30,12 +28,6 @@ function Contact() {
             
                 <h2 className='title'>Contact Me:</h2>
            
-            
-            
-            <div className='contactBtn'>
-                <a href="https://github.com/ChrisManfredijr" target="_blank" rel="noopener noreferrer"><FaGithubSquare className="githubHome"/></a>
-                <a href="https://www.linkedin.com/in/chris-manfredi-3b09b5114/" target="_blank" rel="noopener noreferrer"><FaLinkedin className="linkedinHome" /></a>
-            </div>
             <div className='formWrapper'>
             <Form  className='contactInput' onSubmit={sendEmail}>
                 <h3 className='sendMessage'>Send me a message:</h3>
@@ -55,9 +47,9 @@ function Contact() {
                     <Form.Control as="textarea" rows={8} placeholder="Message" name="message"/>
                 </Form.Group>
                 <div className='btnWrapper'>
-                    <Button variant="outline-light" type="submit" className="btn">
-                        Submit
-                    </Button>
+                    <div type="submit" className="underBtn">
+                        SUBMIT
+                    </div>
                 </div>   
             </Form>
             </div>

@@ -1,5 +1,5 @@
 .Footer {
-    height: 125px;
+    height: 150px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -9,8 +9,23 @@
 }
 
 .footerText{
-    font-weight: 200;
-    font-size: 17px;
-    font-style: italic;
+    font-weight: 300;
+    font-size: 25px;
+    width:100%;
+    line-height: 20px;
+}
+
+.footerBtn{
+   margin-bottom:4px;
+   margin-right:4px;
+}
+.footerText > a {
+    text-decoration: none;
+}
+.footerText > a:hover{
+    color:var(--main-text-color);
+}
+.circleFooter{
+    font-size: 5px;
 }
 

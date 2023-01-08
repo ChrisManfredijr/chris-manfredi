@@ -23,13 +23,11 @@
 .name {
   font-size: 6vh;
   text-align: right;
-  text-shadow: 6px 2px black;
-
+  
 }
 .subTitle {
   font-size:7vh;
   color: var(--main-accent-color);
-  font-style: italic;
   text-align: right;
 }
 .aboutButton{
