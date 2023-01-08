@@ -9,7 +9,7 @@ function Projects() {
 
             <h2 className='title projectSection'>My Projects:</h2>
 
-            <div data-aos="fade-left" className="projectCard">
+            <div className="projectCard">
                 <div className='imgWrapper'>
                     <img src={connectfour} alt="tastemakr website" width="600" height="360" className='projectImg' />
                 </div>
@@ -41,7 +41,7 @@ function Projects() {
                 </div>
 
             </div>
-            <div data-aos="fade-right" className="projectCard">
+            <div className="projectCard">
                 <div className='imgWrapper smallScreenImg'>
                     <img src={tastemakr} alt="tastemakr website" width="600" height="360" className='projectImg projectImgRight' />
                 </div>
@@ -75,7 +75,7 @@ function Projects() {
                     <img src={tastemakr} alt="tastemakr website" width="600" height="360" className='projectImgRight' />
                 </div>
             </div>
-            <div data-aos="fade-left" className="projectCard">
+            <div  className="projectCard">
                 <div className='imgWrapper'>
                     <img src={spotifynow} alt="tastemakr website" width="600" height="360" className='projectImg' />
                 </div>
