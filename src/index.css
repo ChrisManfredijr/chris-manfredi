@@ -108,6 +108,7 @@ h2 {
 }
 
 .underBtn{
+  width:fit-content;
   font-size:30px;
   margin-left:20px;
   font-weight: 400;

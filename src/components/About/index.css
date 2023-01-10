@@ -2,6 +2,16 @@
     background-color: var(--second-bg-color);
    
 }
+.aboutWrapper{
+    display: flex;
+    width:40%;
+}
+
+.aboutBtnWrapper{
+    display: flex;
+    justify-content: flex-end;
+    width:50%;
+}
 .title {
   --i: 20px;
   width: fit-content;
@@ -11,10 +21,23 @@
   margin-left: var(--i);
 
 }
+.paragraphWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
+}
+
+.underBtnPrj{
+    align-items: flex-end;
+
+}
 .aboutParagraph {
     font-size: 25px;
     font-weight:300;
+    text-align: start;
+    width:50%;
 }
 .photo {
     justify-content: center;
