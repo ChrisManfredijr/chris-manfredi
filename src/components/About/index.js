@@ -10,7 +10,7 @@ function About() {
     return (
      
         <div className="About section" id='about'>
-            <h2 data-aos="fade-left" className="title aboutTitle">About Me</h2>
+            <h2 className="title aboutTitle">About Me</h2>
             <div className="photoWrapper">
                 <img src={Chris} alt= "Chris Manfredi, Fullstack Developer" width="295" height="435" className="photo"/>
             </div>
@@ -19,7 +19,7 @@ function About() {
                     RESUME
             </a>        
             <div className="skillSection">
-                <div data-aos="fade-up" className="skillBox Frontend">
+                <div className="skillBox Frontend">
                     <ul className="skillList">
                         <li className="nameWrapper"><h3 className="skillName">Frontend</h3></li>
                         <li>HTML</li>
@@ -29,7 +29,7 @@ function About() {
                         <li>React</li>
                     </ul>
                 </div>
-                <div data-aos="fade-up" className="skillBox Backend">
+                <div className="skillBox Backend">
                     <ul className="skillList">
                         <li className="nameWrapper"><h3 className="skillName">Backend</h3></li>
                         <li>Node</li>
@@ -40,7 +40,7 @@ function About() {
                     </ul>
                 </div>
 
-                <div data-aos="fade-up" className="skillBox Concepts">
+                <div className="skillBox Concepts">
                     <ul className="skillList">
                         <li className="nameWrapper"><h3 className="skillName">Concepts</h3></li>
                         <li>Test Driven Development</li>

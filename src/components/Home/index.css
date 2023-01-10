@@ -3,27 +3,17 @@
   justify-content: center;
   align-items: center;
   margin:0;
-  padding-right:41%;
+  padding-right:45%;
   height:100vh;
-}
-
-.githubHome {
-    font-size: 65px;
-    margin-left: 10px;
-}
-
-.linkedinHome {
-    font-size:65px;
-    margin-left: 10px;
 }
 
 .githubHome:hover, .linkedinHome:hover{
   color:var(--main-accent-color)
 }
+
 .name {
-  font-size: 6vh;
+  font-size: 7vh;
   text-align: right;
-  
 }
 .subTitle {
   font-size:7vh;
@@ -36,6 +26,7 @@
 .homeButtons {
   display: flex;
   justify-content: flex-end;
+  flex-wrap: wrap;
   padding-top: 25px;
 }
 .curve {
@@ -44,19 +35,39 @@
   width: 100px;
   bottom: 0;
 }
-
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1375px){
+  .Home{
+    padding-right: 50%;
+  }
+  .name {
+    font-size: 6vh;
+    text-align: right;
+  }
+  .subTitle {
+    font-size:6vh;
+    color: var(--main-accent-color);
+    text-align: right;
+  }
+}
+@media only screen and (max-width: 950px) {
+  .underBtn{
+    margin-left: 5px;
+    margin-right:5px;
+    font-size: 25px;
+  }
   .Home{
     padding-right:0%;
-    
   }
   .name{
     text-align: center;
+    font-size:8vh;
   }
   .subTitle{
     text-align: center;
+    font-size:8vh
   }
   .homeButtons{
     justify-content: center;
+    
   }
 }
