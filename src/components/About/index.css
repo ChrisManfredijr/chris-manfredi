@@ -19,6 +19,7 @@
   text-indent: calc(-1*var(--i));
   padding-right: var(--i);
   margin-left: var(--i);
+  text-align: center;
 
 }
 .paragraphWrapper {
@@ -37,6 +38,7 @@
     font-size: 25px;
     font-weight:300;
     text-align: start;
+    text-indent: 1em;
     width:50%;
 }
 .photo {
@@ -44,29 +46,28 @@
     font-size: 150px;
 }
 .skillBox {
-    background-color: var(--second-text-color);
-    box-shadow: 8px 8px 0 1px var(--main-accent-color);
+    background-color: var(--main-accent-color);
+    box-shadow: 8px 8px 0 0px var(--second-bg-color), 16px 16px 0 0px var(--main-accent-color);
     width:300px;
     margin:20px;
-    height:350px;
+    height:300px;
 }
 
 .skillList {
     list-style: none;
-    padding:0px;
+    padding: 25px 50px 25px 50px;
 }
-.skillList, li {
+.skillName {
+    font-size: 45px;
+    color: var(--main-text-color);
+}
+.skillList > li {
     font-size: 30px;
-    font-weight:300;
-    
-   
+    font-weight:600;
+    color: var(--main-bg-color);
+    text-align: start;
 }
-.CvButton {
-    font-size: 30px;
-    font-style:italic;
-    width: 150px !important;
-    padding: 10px;
-}
+
 .Backend {
     margin-top:75px;
 }
@@ -77,23 +78,10 @@
     display:flex;
     flex-wrap: wrap;
     justify-content: center;
-    text-align: center;
 }
-.skillName {
-    --i: 20px;
-    width: fit-content;
-    box-shadow: 0 -20px var(--main-accent-color) inset;
-    text-indent: calc(-1*var(--i));
-    padding-right: var(--i);
-    margin-left: var(--i);
-    font-size: 45px;
-    padding-top: 10px;
-    
-}
+
 .nameWrapper{
     width:100%;
-    display: flex;
-    justify-content: center;
 }
 .aboutArrow {
     font-size: 50px;
@@ -144,10 +132,18 @@
 }
 
 @media only screen and (max-width: 1050px) {
+    .aboutParagraph{
+        width:90%;
+    }
+    
     .Backend {
         margin-top:20px;
     }
     .Concepts{
         margin-top:20px;
+    }
+    .aboutBtnWrapper{
+        justify-content: center;
+        margin-bottom: 50px;
     }
   }

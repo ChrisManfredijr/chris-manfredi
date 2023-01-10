@@ -1,7 +1,7 @@
 import "./index.css";
 import Chris from '../../assets/images/chris.png';
 import CV from '../../assets/ChrisManfredi.pdf'
-
+import { FaHtml5, FaCss3Alt,FaJs,FaReact, FaNodeJs, FaServer, FaDatabase, FaLeaf } from "react-icons/fa";
 
 function About() {
     return (
@@ -20,7 +20,7 @@ function About() {
                     <br/>
                     <div className="aboutBtnWrapper">
                         <a href={CV} target="_blank" rel="noopener noreferrer" className="underBtn underBtnPrj">
-                         VIEW RESUME
+                         - RESUME -
                         </a>
                     </div>
             </div>
@@ -29,33 +29,31 @@ function About() {
                 <div className="skillBox Frontend">
                     <ul className="skillList">
                         <li className="nameWrapper"><h3 className="skillName">Frontend</h3></li>
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>JavaScript</li>
-                        <li>Bootstrap</li>
-                        <li>React</li>
+                        <li><FaHtml5/> HTML</li>
+                        <li><FaCss3Alt/> CSS</li>
+                        <li><FaJs/> JavaScript</li>
+                        <li><FaReact/> React</li>
                     </ul>
                 </div>
 
                 <div className="skillBox Backend">
                     <ul className="skillList">
                         <li className="nameWrapper"><h3 className="skillName">Backend</h3></li>
-                        <li>Node</li>
-                        <li>Express</li>
-                        <li>mySql</li>
-                        <li>MongoDB</li>
-                        <li>React</li>
+                        <li><FaNodeJs/> Node</li>
+                        <li><FaServer/> Express</li>
+                        <li><FaDatabase/> SQL</li>
+                        <li><FaLeaf/> MongoDB</li>
+                        
                     </ul>
                 </div>
 
                 <div className="skillBox Concepts">
                     <ul className="skillList">
                         <li className="nameWrapper"><h3 className="skillName">Concepts</h3></li>
-                        <li>Test Driven Development</li>
-                        <li>Object Oriented Programming</li>
-                        <li>Model View Controller</li>
-                        <li>MERN Stack</li>
-
+                        <li>TDD</li>
+                        <li>OOP</li>
+                        <li>MVC</li>
+                        <li>MERN</li>
                     </ul>
                 </div>
             </div>

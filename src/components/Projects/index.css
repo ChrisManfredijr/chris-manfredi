@@ -89,7 +89,7 @@
 
 .builtWithList > li {
     font-size:20px;
-    
+    color: var(--main-accent-color)
 }
 
 .projectBio {
