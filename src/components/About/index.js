@@ -1,7 +1,7 @@
 import "./index.css";
 import Chris from '../../assets/images/chris.png';
 import CV from '../../assets/ChrisManfredi.pdf'
-import { FaHtml5, FaCss3Alt,FaJs,FaReact, FaNodeJs, FaServer, FaDatabase, FaLeaf, FaCheckSquare, FaLayerGroup} from "react-icons/fa";
+import { FaHtml5, FaCss3Alt,FaJs,FaReact, FaNodeJs, FaServer, FaDatabase, FaLeaf} from "react-icons/fa";
 
 function About() {
     return (

@@ -53,17 +53,7 @@
     font-weight:200;
     font-style: italic;
 }
-.upArrowWrapper{
-    background-color: var(--main-accent-color);
-    width:50px;
-    cursor:pointer;
-    z-index: 1;
-    position: relative;
-    top:-55px;
-    
-    
- 
-}
+
 .formWrapper {
     display: flex;
     justify-content: center;

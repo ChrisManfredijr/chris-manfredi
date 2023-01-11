@@ -10,12 +10,21 @@
 
 .footerText{
     font-weight: 300;
-    font-size: 25px;
+    font-size: 18px;
     width:100%;
-    line-height: 20px;
     color:var(--second-text-color);
+    font-weight: 400;
+    
 }
-
+.upArrowWrapper{
+    background-color: var(--main-accent-color);
+    width:50px;
+    cursor:pointer;
+    z-index: 1;
+    position: absolute;
+    margin-bottom: 150px;
+    
+}
 .footerBtn{
    margin-bottom:4px;
    margin-right:4px;
