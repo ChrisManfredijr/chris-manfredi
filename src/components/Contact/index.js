@@ -35,7 +35,7 @@ function Contact() {
                     <Form.Control type="name" placeholder="Name" name="name"/>
                 </Form.Group>
     
-                <Form.Group className="mb-2" controlId="formBasicEmail" >
+                <Form.Group className="mb-2" controlId="formBasicEmail"  >
                     <Form.Control type="email" placeholder="Email" name="email"/>
                 </Form.Group>
 

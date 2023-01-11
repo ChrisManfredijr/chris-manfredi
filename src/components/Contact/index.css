@@ -19,6 +19,14 @@
     flex-direction: column;
     
 }
+.form-control{
+    background-color:var(--main-bg-color) !important;
+    border-radius: 0px;
+    border: 1px solid var(--main-bg-color) !important;
+    
+}
+
+
 
 .btn {
     width:100px;
@@ -32,7 +40,7 @@
 
 .line {
     width:50%;
-    border-top: 3px solid darkgray;
+    border-top: 3px solid var(--main-bg-color);
     margin-top: 50px;
 }
 
