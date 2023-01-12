@@ -9,7 +9,6 @@
 
 .upArrow {
     font-size: 50px;
-   
 }
 
 .contactInput {
@@ -50,8 +49,7 @@
 .sendMessage{
     padding-bottom: 20px;
     text-align: start;
-    font-weight:200;
-    font-style: italic;
+    font-weight:400;
 }
 
 .formWrapper {
