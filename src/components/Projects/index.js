@@ -1,7 +1,7 @@
 import './index.css'
-import tastemakr from '../../assets/images/tastemakr.png';
-import connectfour from '../../assets/images/connectfour.png';
-import spotifynow from '../../assets/images/spotifynow.png';
+import tastemakr from '../../assets/images/tastemakr.webp';
+import connectfour from '../../assets/images/connectfour.webp';
+import spotifynow from '../../assets/images/spotifynow.webp';
 
 function Projects() {
     return (
@@ -11,7 +11,7 @@ function Projects() {
 
             <div className="projectCard">
                 <div className='imgWrapper'>
-                    <img src={connectfour} alt="tastemakr website" width="600" height="360" className='projectImg' />
+                    <img src={connectfour} alt="tastemakr website" width="640" height="360" className='projectImg' />
                 </div>
 
                 <div className='projectInfo'>
@@ -43,7 +43,7 @@ function Projects() {
             </div>
             <div className="projectCard">
                 <div className='imgWrapper smallScreenImg'>
-                    <img src={tastemakr} alt="tastemakr website" width="600" height="360" className='projectImg projectImgRight' />
+                    <img src={tastemakr} alt="tastemakr website" width="640" height="360" className='projectImg projectImgRight' />
                 </div>
 
                 <div className='projectInfo projectInfoRight'>
@@ -72,12 +72,12 @@ function Projects() {
                     </div>
                 </div>
                 <div className='imgWrapper largeScreenImg'>
-                    <img src={tastemakr} alt="tastemakr website" width="600" height="360" className='projectImgRight' />
+                    <img src={tastemakr} alt="tastemakr website" width="640" height="360" className='projectImgRight' />
                 </div>
             </div>
             <div  className="projectCard">
                 <div className='imgWrapper'>
-                    <img src={spotifynow} alt="tastemakr website" width="600" height="360" className='projectImg' />
+                    <img src={spotifynow} alt="tastemakr website" width="640" height="360" className='projectImg' />
                 </div>
 
                 <div className='projectInfo'>
@@ -100,7 +100,7 @@ function Projects() {
                         </ul>
                     </div>
                     <div className='projectBtnWrapper'>
-                        <a href="https://spotify-wrapped-now.herokuapp.com/" target="_blank" rel="noopener noreferrer" className='underBtn underPrj'>
+                        <a href="https://spotify-now-app.herokuapp.com/" target="_blank" rel="noopener noreferrer" className='underBtn underPrj'>
                             VISIT SITE
                         </a>
                         <a href="https://github.com/ajjaswal/spotify-now" target="_blank" rel="noopner noreferrer" className='underBtn underPrj'>

@@ -1,5 +1,5 @@
 import "./index.css";
-import Chris from '../../assets/images/chris.png';
+import Chris from '../../assets/images/chris.webp';
 import CV from '../../assets/ChrisManfredi.pdf'
 import { FaHtml5, FaCss3Alt,FaJs,FaReact, FaNodeJs, FaServer, FaDatabase, FaLeaf} from "react-icons/fa";
 

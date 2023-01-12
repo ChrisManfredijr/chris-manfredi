@@ -10,16 +10,16 @@ function Header() {
         <Container className='nav-bar'>
           <Nav className="lg-auto nav-links">
             <Nav.Link as={Link} to="home" spy={true} smooth={false} duration={500}>
-              Home
+              HOME 
             </Nav.Link>
             <Nav.Link as={Link} to="about" spy={true} smooth={false} duration={500} offset={-90}>
-              About
+              ABOUT
             </Nav.Link>
             <Nav.Link as={Link} to="projects" spy={true} smooth={false} duration={500} offset={-90}>
-              Projects
+              PROJECTS
             </Nav.Link>
             <Nav.Link as={Link} to="contact" spy={true} smooth={false} duration={500} offset={-90}>
-              Contact
+              CONTACT
             </Nav.Link>
           </Nav>
         </Container>
