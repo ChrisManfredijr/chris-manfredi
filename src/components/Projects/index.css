@@ -11,14 +11,20 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height:400px;
+    height:500px;
 }
+
+
 .projectCard{
     height:360px;
     width: 640px;
     display: flex;
     justify-content: center;
     padding-left: 180px;
+}
+.projectCardRight{
+    padding-left: 0px;
+    padding-right: 180px;
 }
 .imgWrapper{
     background-color: var(--main-accent-color);
@@ -35,9 +41,15 @@
     text-align: right;
     min-width:640px;
     height:180px;
-    top:100px;
+    top:50px;
     right:180px;
    
+}
+
+.ProjectInfoRight{
+    right:0px;
+    left:180px;
+    text-align: left;
 }
 .projectName{
     font-size: 60px;
@@ -50,6 +62,7 @@
     background-color: var(--second-bg-color);
     padding:18px;
     font-weight: 400;
+    z-index: 1;
 }
 .techStack{
     font-size: 22px;
@@ -60,4 +73,8 @@
 
 .underPrj {
     font-size: 20px;
+}
+.underPrjRight{
+    margin-left: 0px;
+    margin-right: 20px;
 }

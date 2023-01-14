@@ -25,7 +25,7 @@ function Projects() {
             name: 'Spotify Now',
             img: spotifynow,
             bio: 'Login to Spotify to view your top songs and artists for the year. Generate a custom playlist with your top songs. You can also share your playist to the public database. Integrates MVC architecture design patterns and 0Auth.',
-            tech: ['HTML', ' CSS ', 'JavaScript ', 'Handlebars ', 'REST API  ',  'OAuth ', 'MySql '],
+            tech: ['HTML', ' CSS ', 'JavaScript ', 'Handlebars ', 'REST API  ', 'OAuth ', 'MySql '],
             site: 'https://spotify-now-app.herokuapp.com/',
             github: 'https://github.com/ajjaswal/spotify-now'
         },
@@ -40,29 +40,56 @@ function Projects() {
             <div className='projectSection'>
                 {projectArray.map((card, index) => {
                     return (
+
                         <div className='projectCardWrapper' key={index}>
-                            <div className='projectCard'>
-                                <div className='imgWrapper'>
-                                    <img src={card.img} width="640" height="360" className='projectImg' />
-                                </div>
-                            
-                                <div className='ProjectInfo'>
-                                    <h3 className='projectName'>{card.name}</h3>
-                                    <p className='projectBio'>{card.bio}</p>
-                                    
-                                    <div className='techStack'>
-                                        {card.tech}
+                            {index % 2 === 0 ?
+                                <div className="projectCard">
+                                    <div className='imgWrapper'>
+                                        <img src={card.img} width="640" height="360" className='projectImg' />
                                     </div>
-                                    <div className='projectButtonWrapper'>
-                                        <a href={card.site} target="_blank" rel="noopener noreferrer" className='underBtn underPrj'>
-                                        VISIT SITE
-                                        </a>
-                                        <a href={card.github} target="_blank" rel="noopner noreferrer" className='underBtn underPrj'>
-                                        VIEW CODE
-                                        </a>
+
+                                    <div className='ProjectInfo'>
+                                        <h3 className='projectName'>{card.name}</h3>
+                                        <p className='projectBio'>{card.bio}</p>
+
+                                        <div className='techStack'>
+                                            {card.tech}
+                                        </div>
+                                        <div className='projectButtonWrapper'>
+                                            <a href={card.site} target="_blank" rel="noopener noreferrer" className='underBtn underPrj'>
+                                                VISIT SITE
+                                            </a>
+                                            <a href={card.github} target="_blank" rel="noopner noreferrer" className='underBtn underPrj'>
+                                                VIEW CODE
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div> 
+
+                                :
+                                
+                                <div className="projectCard projectCardRight">
+                                    <div className='ProjectInfo ProjectInfoRight'>
+                                        <h3 className='projectName'>{card.name}</h3>
+                                        <p className='projectBio'>{card.bio}</p>
+                                        <div className='techStack'>
+                                            {card.tech}
+                                        </div>
+                                        <div className='projectButtonWrapper'>
+                                            <a href={card.site} target="_blank" rel="noopener noreferrer" className='underBtn underPrj underPrjRight'>
+                                                VISIT SITE
+                                            </a>
+                                            <a href={card.github} target="_blank" rel="noopner noreferrer" className='underBtn underPrj underPrjRight'>
+                                                VIEW CODE
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div className='imgWrapper'>
+                                        <img src={card.img} width="640" height="360" className='projectImg' />
                                     </div>
                                 </div>
-                            </div>
+                            }
+
                         </div>
                     );
 
@@ -79,24 +106,5 @@ function Projects() {
     )
 }
 
-/*
- <img src={connectfour} alt="tastemakr website" width="640" height="360" className='' />
- <img src={tastemakr} alt="tastemakr website" width="640" height="360" className='' />
-<img src={spotifynow} alt="tastemakr website" width="640" height="360" className='' />
- <a href="https://tastemakr.herokuapp.com/" target="_blank" rel="noopener noreferrer" className='underBtn underPrj'>
-                                VISIT SITE
-                        </a>
-                        <a href="https://github.com/ChrisManfredijr/tastemakr" target="_blank" rel="noopner noreferrer" className='underBtn underPrj'>
-                            VIEW CODE
-                        </a>
-
-<a href="https://spotify-now-app.herokuapp.com/" target="_blank" rel="noopener noreferrer" className='underBtn underPrj'>
-                            VISIT SITE
-                        </a>
-                        <a href="https://github.com/ajjaswal/spotify-now" target="_blank" rel="noopner noreferrer" className='underBtn underPrj'>
-                            VIEW CODE
-                        </a>
-
-*/
 
 export default Projects;
