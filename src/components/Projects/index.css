@@ -1,6 +1,4 @@
-.Projects {
-    
-}
+
 .ProjectTitle{
     margin-bottom: 15px;
 }
@@ -31,7 +29,7 @@
 }
 .projectImg{
     filter: grayscale(100%);
-    opacity: 20%;
+    opacity: 10%;
 }
 
 .ProjectInfo{
@@ -77,4 +75,30 @@
 .underPrjRight{
     margin-left: 0px;
     margin-right: 20px;
+}
+
+@media only screen and (max-width: 1125px) {
+    .projectCard{
+        padding-left:0px;
+    }
+    .projectCardRight{
+        padding-right: 0px;
+    }
+    .ProjectInfo{
+        right:0;
+        text-align:left;
+        z-index: 1;
+        color:var(--main-bg-color)
+    }
+    .ProjectInfoRight{
+        left:0;
+    }
+    .projectBio{
+       background-color:transparent;
+       color:var(--main-bg-color)
+    }
+    .imgWrapper{
+        justify-content: center;
+        position: absolute;
+    }
 }
