@@ -29,10 +29,13 @@
 .imgWrapper{
     background-color: var(--main-accent-color);
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
 }
 .projectImg{
     filter: grayscale(100%);
     opacity: 10%;
+    overflow: hidden;
+    
     
 }
 
@@ -71,7 +74,7 @@
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 .techStack{
-    font-size: 22px;
+    font-size: 20px;
     word-spacing: .75rem;
     color:var(--main-accent-color);
     width:400px;
@@ -99,30 +102,112 @@
 @media only screen and (max-width: 1125px) {
     .projectCard{
         padding-left:0px;
+       
+    }
+    
+    .projectCardWrapper{
+        height:400px;
+        max-width:100%;
     }
     .projectCardRight{
         padding-right: 0px;
     }
     .ProjectInfo{
         right:0;
+        padding: 8px;
         text-align:left;
         z-index: 1;
-        color:var(--main-bg-color)
+        color:var(--main-bg-color);
+        
     }
     .ProjectInfoRight{
         left:0;
     }
     .projectBio{
        background-color:transparent;
+       box-shadow: none;
+       font-weight: 500;
+       padding:8px;
        color:var(--main-bg-color)
     }
     .imgWrapper{
         justify-content: center;
         position: absolute;
+        max-width: fit-content;
     }
     .techStack{
-        color:var(--main-bg-color);
+        color:var(--main-text-color);
         margin-left:0px;
         width:640px;
     }
+    .underPrj{
+        color:var(--second-main-color);
+        font-weight: 600;
+        border-bottom: 3px solid var(--main-bg-color);
+    }
+    .underPrj:before {
+        background-color: var(--main-bg-color);
+      }
+      
+      .underPrj:hover{
+        color: var(--main-text-color);
+      }
+    .projectButtonWrapper{
+        position: relative;
+        display: flex;
+        justify-content: flex-end;
+    }
+@media only screen and (max-width: 675px) {
+       .projectCard{
+        transform: scale(.7);
+       }
+       .projectCardWrapper{
+        height:300px;
+       }
+    }   
+}
+
+@media only screen and (max-width: 450px){
+    .projectCard{
+        transform: scale(.5);
+        
+    }
+    .projectCardWrapper{
+        height: 300px;
+        display: flex;
+        align-items: center;
+        margin-bottom: 50px;
+    }
+
+    .ProjectInfo{
+        justify-content: space-between; 
+    }
+    .projectBio{
+        font-size: 35px;
+
+    }
+    .projectImg{
+        object-fit: cover;
+        height:600px;
+    }
+    .imgWrapper{
+        min-height:600px;
+        overflow: hidden;
+    }
+    .techStack{
+        font-size: 30px;
+    }
+    .underPrj{
+        font-size: 30px;
+    }
+
+    @media only screen and (max-width: 374px){
+        .projectCard{
+            transform: scale(.45);
+        }
+        .projectCardWrapper{
+            height:240px;
+        }
+    }
+   
 }
