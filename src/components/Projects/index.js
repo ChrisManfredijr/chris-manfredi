@@ -9,7 +9,7 @@ function Projects() {
             name: 'Connect Four',
             img: connectfour,
             bio: 'Play Connect Four against another player in the browser. Game will automatically detect wins and keep score. Save this React app as a Progressive Web Application',
-            tech: ['React ', 'SPA ', 'PWA ', 'Game Design ', 'JSX ', 'CSS '],
+            tech: ['React ', 'SPA ', 'PWA ', 'Game-Design ', 'JSX ', 'CSS '],
             site: 'https://connectfour-manfredi.netlify.app/',
             github: 'https://github.com/ChrisManfredijr/connectfour'
         },
@@ -17,7 +17,7 @@ function Projects() {
             name: 'Tastemakr',
             img: tastemakr,
             bio: 'Generate music recommendations by entering an artist/band name. Login to save and view previously saved recommendations. MERN Stack application with REST api and GraphQL',
-            tech: ['React ', 'Express ', 'Node ', 'MongoDB ', 'Last.FM API ', 'GraphQL '],
+            tech: ['React ', 'Express ', 'Node ', 'MongoDB ', 'Last.FM-API ', 'GraphQL '],
             site: 'https://tastemakr.herokuapp.com/',
             github: 'https://github.com/ChrisManfredijr/tastemakr'
         },
@@ -72,7 +72,7 @@ function Projects() {
                                     <div className='ProjectInfo ProjectInfoRight'>
                                         <h3 className='projectName'>{card.name}</h3>
                                         <p className='projectBio'>{card.bio}</p>
-                                        <div className='techStack'>
+                                        <div className='techStack techStackRight'>
                                             {card.tech}
                                         </div>
                                         <div className='projectButtonWrapper'>
