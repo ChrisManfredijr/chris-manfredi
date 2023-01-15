@@ -157,6 +157,10 @@
         display: flex;
         justify-content: flex-end;
     }
+    .underPrj{
+        margin-right: 0;
+        margin-left: 20px;
+    }
 @media only screen and (max-width: 675px) {
        .projectCard{
         transform: scale(.7);
@@ -169,7 +173,7 @@
 
 @media only screen and (max-width: 450px){
     .projectCard{
-        transform: scale(.5);
+        transform: scale(.50);
         
     }
     .projectCardWrapper{
@@ -181,9 +185,11 @@
 
     .ProjectInfo{
         justify-content: space-between; 
+        height: 500px;
+        padding:30px
     }
     .projectBio{
-        font-size: 35px;
+        font-size: 30px;
 
     }
     .projectImg{
@@ -195,6 +201,7 @@
         overflow: hidden;
     }
     .techStack{
+        width:fit-content;
         font-size: 30px;
     }
     .underPrj{
