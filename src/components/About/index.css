@@ -47,7 +47,7 @@
 }
 .skillBox {
     background-color: var(--main-accent-color);
-    box-shadow: 8px 8px 0 0px var(--second-bg-color), 16px 16px 0 0px var(--main-accent-color);
+    box-shadow: 8px 8px 0 0px var(--second-bg-color), 16px 16px 0 0px var(--main-accent-color), rgba(149, 157, 165, 0.2) 0px 8px 24px;
     width:300px;
     margin:20px;
     height:300px;
@@ -60,6 +60,7 @@
 .skillName {
     font-size: 45px;
     color: var(--main-text-color);
+    font-style: italic;
 }
 .skillList > li {
     font-size: 30px;
@@ -121,7 +122,6 @@
 
 .photoWrapper{
     --i: 40px;
-
     width: fit-content;
     box-shadow: 0 -300px var(--main-accent-color) inset;
     text-indent: calc(-1*var(--i));
