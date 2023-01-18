@@ -44,9 +44,9 @@ function Projects() {
                         <div className='projectCardWrapper' key={index}>
                             {index % 2 === 0 ?
                                 <div className="projectCard">
-                                    <div className='imgWrapper'>
+                                    <a  href={card.site} target="_blank" rel="noopener noreferrer" className='imgWrapper'>
                                         <img src={card.img} width="640" height="360" className='projectImg'alt={card.name}/>
-                                    </div>
+                                    </a>
 
                                     <div className='ProjectInfo'>
                                         <h3 className='projectName'>{card.name}</h3>
@@ -84,9 +84,9 @@ function Projects() {
                                             </a>
                                         </div>
                                     </div>
-                                    <div className='imgWrapper'>
+                                    <a href={card.site} target="_blank" rel="noopener noreferrer" className='imgWrapper' >
                                         <img src={card.img} width="640" height="360" className='projectImg' alt={card.name}/>
-                                    </div>
+                                    </a>
                                 </div>
                             }
 

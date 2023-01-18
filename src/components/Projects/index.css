@@ -29,7 +29,17 @@
 .imgWrapper{
     background-color: var(--main-accent-color);
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
 
+.imgWrapper:hover{
+    -webkit-transform: scale(1.04);
+-moz-transform: scale(1.04);
+-o-transform: scale(1.04);
+-ms-transform: scale(1.04);
+transform: scale(1.04);
 }
 .projectImg{
     filter: grayscale(100%);
@@ -102,9 +112,17 @@
 @media only screen and (max-width: 1125px) {
     .projectCard{
         padding-left:0px;
-       
+        -moz-transition: all 0.3s;
+        -webkit-transition: all 0.3s;
+        transition: all 0.3s;
     }
-    
+    .projectCard:hover{
+        -webkit-transform: scale(1.04);
+        -moz-transform: scale(1.04);
+        -o-transform: scale(1.04);
+        -ms-transform: scale(1.04);
+        transform: scale(1.04);
+    }
     .projectCardWrapper{
         height:400px;
         max-width:100%;
@@ -134,6 +152,21 @@
         justify-content: center;
         position: absolute;
         max-width: fit-content;
+    }
+    .imgWrapper{
+        background-color: var(--main-accent-color);
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        -moz-transition: none;
+        -webkit-transition: none;
+        transition:none;
+    }
+    
+    .imgWrapper:hover{
+        -webkit-transform: scale(1.00);
+    -moz-transform: scale(1.00);
+    -o-transform: scale(1.00);
+    -ms-transform: scale(1.00);
+    transform: scale(1.00);
     }
     .techStack{
         color:var(--main-text-color);
@@ -165,6 +198,14 @@
        .projectCard{
         transform: scale(.7);
        }
+ 
+    .projectCard:hover{
+        -webkit-transform: scale(.75);
+        -moz-transform: scale(.75);
+        -o-transform: scale(.75);
+        -ms-transform: scale(.75);
+        transform: scale(.75);
+    }
        .projectCardWrapper{
         height:300px;
        }
@@ -175,6 +216,13 @@
     .projectCard{
         transform: scale(.50);
         
+    }
+    .projectCard:hover{
+        -webkit-transform: scale(.55);
+        -moz-transform: scale(.55);
+        -o-transform: scale(.55);
+        -ms-transform: scale(.55);
+        transform: scale(.55);
     }
     .projectCardWrapper{
         height: 300px;
