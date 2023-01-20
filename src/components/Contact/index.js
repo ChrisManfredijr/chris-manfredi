@@ -26,7 +26,7 @@ function Contact() {
 
         <div className="Contact" id="contact">
 
-            <h2 className='title'data-aos="fade-in">Contact Me:</h2>
+            <h2 className='title'>Contact Me:</h2>
 
             <div className='formWrapper'>
                 <Form className='contactInput' onSubmit={sendEmail}>

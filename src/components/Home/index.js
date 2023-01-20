@@ -26,7 +26,7 @@ const Home = () => {
             if (vantaEffect) vantaEffect.destroy()
         }
     }, [vantaEffect])
-    return <div ref={myRef} id="">
+    return <div ref={myRef} >
 
         <div className="Home section" id="home">
             <div>

@@ -6,7 +6,7 @@ import { FaHtml5, FaCss3Alt,FaJs,FaReact, FaNodeJs, FaServer, FaDatabase, FaLeaf
 function About() {
     return (
         <div className="About section" id='about'>
-            <h2 className="title aboutTitle" data-aos="fade-in">About Me</h2>
+            <h2 className="title aboutTitle">About Me</h2>
             
                 
                 <div className="photoWrapper">
@@ -26,7 +26,7 @@ function About() {
             </div>
 
             <div className="skillSection">
-                <div className="skillBox Frontend" data-aos="fade-up">
+                <div className="skillBox Frontend">
                     <ul className="skillList" >
                         <li className="nameWrapper"><h3 className="skillName">Frontend</h3></li>
                         <li><FaHtml5/> HTML</li>
@@ -36,7 +36,7 @@ function About() {
                     </ul>
                 </div>
 
-                <div className="skillBox Backend" data-aos="fade-up">
+                <div className="skillBox Backend" >
                     <ul className="skillList">
                         <li className="nameWrapper"><h3 className="skillName">Backend</h3></li>
                         <li><FaNodeJs/> Node</li>
@@ -47,7 +47,7 @@ function About() {
                     </ul>
                 </div>
 
-                <div className="skillBox Concepts" data-aos="fade-up">
+                <div className="skillBox Concepts">
                     <ul className="skillList">
                         <li className="nameWrapper"><h3 className="skillName">Concepts</h3></li>
                         <li>TDD</li>
