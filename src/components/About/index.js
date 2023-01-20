@@ -6,14 +6,14 @@ import { FaHtml5, FaCss3Alt,FaJs,FaReact, FaNodeJs, FaServer, FaDatabase, FaLeaf
 function About() {
     return (
         <div className="About section" id='about'>
-            <h2 className="title aboutTitle">About Me</h2>
+            <h2 className="title aboutTitle" data-aos="fade-in">About Me</h2>
             
                 
                 <div className="photoWrapper">
                     <img src={Chris} alt="Chris Manfredi, Fullstack Developer" width="295" height="435" className="photo" />
                 </div>
 
-                <div className="paragraphWrapper">
+                <div className="paragraphWrapper" >
                     <p className="aboutParagraph">My name is Chris Manfredi and I am a frontend developer with a background in business data analytics. I graduated from the University of Connecticut where I developed an interest in coding after building relational databases with SQL. To gain the technical skills I needed to build fullstack applications, I attended a coding bootcamp and learned the fundamentals of web development. I also served in the United States Marine Corps Reserve where I learned discipline, attention to detail and the ability to work in a team, all of which have helped me to become a better developer. In my free time, I enjoy playing guitar and snowboarding. With my unique set of skills, I am excited to use my passion for coding to build high-quality and user-friendly websites.
                     </p>
 
@@ -26,8 +26,8 @@ function About() {
             </div>
 
             <div className="skillSection">
-                <div className="skillBox Frontend">
-                    <ul className="skillList">
+                <div className="skillBox Frontend" data-aos="fade-up">
+                    <ul className="skillList" >
                         <li className="nameWrapper"><h3 className="skillName">Frontend</h3></li>
                         <li><FaHtml5/> HTML</li>
                         <li><FaCss3Alt/> CSS</li>
@@ -36,7 +36,7 @@ function About() {
                     </ul>
                 </div>
 
-                <div className="skillBox Backend">
+                <div className="skillBox Backend" data-aos="fade-up">
                     <ul className="skillList">
                         <li className="nameWrapper"><h3 className="skillName">Backend</h3></li>
                         <li><FaNodeJs/> Node</li>
@@ -47,7 +47,7 @@ function About() {
                     </ul>
                 </div>
 
-                <div className="skillBox Concepts">
+                <div className="skillBox Concepts" data-aos="fade-up">
                     <ul className="skillList">
                         <li className="nameWrapper"><h3 className="skillName">Concepts</h3></li>
                         <li>TDD</li>
