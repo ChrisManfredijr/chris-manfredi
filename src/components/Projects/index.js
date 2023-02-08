@@ -1,10 +1,19 @@
 import './index.css'
 import tastemakr from '../../assets/images/tastemakr.webp';
 import connectfour from '../../assets/images/connectfour.webp';
-import spotifynow from '../../assets/images/spotifynow.webp';
+import archstudio from '../../assets/images/arch.png';
 
 function Projects() {
     const projectArray = [
+        {
+            name: 'Arch Studio: Multi-Page site',
+            img: archstudio,
+            bio: 'A multi-page React application for a fiction architecture firm. front-end styling created with a mobile first approach using tailwind CSS',
+            tech: ['React ', ' Tailwind '," multi-page ", ' Mobile-first ' ],
+            site: 'https://archstudio-manfredi.netlify.app/',
+            github: 'https://github.com/ChrisManfredijr/arch-studio'
+        },
+        
         {
             name: 'Connect Four',
             img: connectfour,
@@ -21,14 +30,7 @@ function Projects() {
             site: 'https://tastemakr.herokuapp.com/',
             github: 'https://github.com/ChrisManfredijr/tastemakr'
         },
-        {
-            name: 'Spotify Now',
-            img: spotifynow,
-            bio: 'Login to Spotify to view your top songs and artists for the year. Generate a custom playlist with your top songs. You can also share your playist to the public database. Integrates MVC architecture design patterns and 0Auth.',
-            tech: ['HTML', ' CSS ', 'JavaScript ', 'Handlebars ', 'REST API  ', 'OAuth ', 'MySql '],
-            site: 'https://spotify-now-app.herokuapp.com/',
-            github: 'https://github.com/ajjaswal/spotify-now'
-        },
+    
 
     ]
 
