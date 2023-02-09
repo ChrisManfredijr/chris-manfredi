@@ -33,6 +33,7 @@ function About() {
                         <li><FaCss3Alt/> CSS</li>
                         <li><FaJs/> JavaScript</li>
                         <li><FaReact/> React</li>
+                        <li> Tailwind CSS</li>
                     </ul>
                 </div>
 
