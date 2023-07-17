@@ -3,10 +3,14 @@
   justify-content: center;
   align-items: center;
   margin:0;
-  padding-right:45%;
-  height:100vh;
+  height:75vh;
+  display: flex;
 }
 
+.homeWrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
 .githubHome:hover, .linkedinHome:hover{
   color:var(--main-accent-color)
 }
@@ -36,9 +40,7 @@
   bottom: 0;
 }
 @media only screen and (max-width: 1375px){
-  .Home{
-    padding-right: 50%;
-  }
+
   .name {
     font-size: 6vh;
     text-align: right;
@@ -69,5 +71,14 @@
   .homeButtons{
     justify-content: center;
     
+  }
+}
+
+@media only screen and (max-width: 785px) {
+  .homeWrapper {
+    flex-direction: column;
+  }
+  .photoWrapper {
+    margin-top:20px !important;
   }
 }
