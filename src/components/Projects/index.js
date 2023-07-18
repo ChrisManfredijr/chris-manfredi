@@ -27,7 +27,7 @@ function Projects() {
             img: tastemakr,
             bio: 'Generate music recommendations by entering an artist/band name. Login to save and view previously saved recommendations. MERN Stack application with REST api and GraphQL',
             tech: ['React ', 'Express ', 'Node ', 'MongoDB ', 'Last.FM-API ', 'GraphQL '],
-            site: 'https://tastemakr.herokuapp.com/',
+            site: 'https://tastemakr-867ebed38f5e.herokuapp.com/',
             github: 'https://github.com/ChrisManfredijr/tastemakr'
         },
     
