@@ -1,7 +1,7 @@
 import './index.css'
 import tastemakr from '../../assets/images/tastemakr.webp';
 import connectfour from '../../assets/images/connectfour.webp';
-import archstudio from '../../assets/images/arch.png';
+import archstudio from '../../assets/images/arch.webp';
 
 function Projects() {
     const projectArray = [
