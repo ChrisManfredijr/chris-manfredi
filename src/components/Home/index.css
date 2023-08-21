@@ -2,7 +2,7 @@
 .Home {
   justify-content: center;
   align-items: center;
-  margin:0;
+  padding-top: 275px;
   height:75vh;
   display: flex;
 }
@@ -75,6 +75,10 @@
 }
 
 @media only screen and (max-width: 785px) {
+  .Home{
+    height:100%;
+    padding-top:75px;
+  }
   .homeWrapper {
     flex-direction: column;
   }

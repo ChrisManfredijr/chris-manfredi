@@ -12,13 +12,13 @@ function Header() {
             <Nav.Link as={Link} to="home" spy={true} smooth={false} duration={500}>
               HOME 
             </Nav.Link>
-            <Nav.Link as={Link} to="about" spy={true} smooth={false} duration={500} offset={-90}>
+            <Nav.Link as={Link} to="about" spy={true} smooth={false} duration={500} offset={-110}>
               ABOUT
             </Nav.Link>
-            <Nav.Link as={Link} to="projects" spy={true} smooth={false} duration={500} offset={-90}>
+            <Nav.Link as={Link} to="projects" spy={true} smooth={false} duration={500} offset={-110}>
               PROJECTS
             </Nav.Link>
-            <Nav.Link as={Link} to="contact" spy={true} smooth={false} duration={500} offset={-90}>
+            <Nav.Link as={Link} to="contact" spy={true} smooth={false} duration={500} offset={-150}>
               CONTACT
             </Nav.Link>
           </Nav>
