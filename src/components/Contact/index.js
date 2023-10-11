@@ -31,29 +31,29 @@ function Contact() {
             <div className='formWrapper'>
                 <Form className='contactInput' onSubmit={sendEmail}>
                     <h3 className='sendMessage'>Send me a message:</h3>
-                    <Form.Group className="mb-2" controlId="formBasicEmail" >
-                        <Form.Control type="name" placeholder="Name" name="name" />
+                    <Form.Group className="mb-2">
+                        <Form.Control type="text" placeholder="Name" name="name" />
                     </Form.Group>
 
-                    <Form.Group className="mb-2" controlId="formBasicEmail"  >
+                    <Form.Group className="mb-2">
                         <Form.Control type="email" placeholder="Email" name="email" />
                     </Form.Group>
 
                     <Form.Group className="mb-2" controlId="formBasicPassword">
-                        <Form.Control type="subject" placeholder="Subject" name="subject" />
+                        <Form.Control type="text" placeholder="Subject" name="subject" />
                     </Form.Group>
 
                     <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
                         <Form.Control as="textarea" rows={8} placeholder="Message" name="message" />
                     </Form.Group>
                     <div className='btnWrapper'>
-                        <div type="submit" className="underBtn">
+                        <button type="submit" className="underBtn">
                             SUBMIT
-                        </div>
+                        </button>
                     </div>
                 </Form>
             </div>
-            
+
         </div>
     )
 }
